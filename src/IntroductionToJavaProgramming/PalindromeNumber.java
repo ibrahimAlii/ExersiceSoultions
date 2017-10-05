@@ -23,6 +23,7 @@ public class PalindromeNumber {
             sum = (sum * 10) + r;
             n = n / 10;
         }
+
         if (temp == sum)
             System.out.println("palindrome number ");
         else

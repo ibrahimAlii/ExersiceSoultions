@@ -3,16 +3,16 @@
  */
 
 import A2oOnlineSolutions.TheAlphabetSticker;
+import IntroductionToJavaProgramming.MathNumberGeneration;
+import IntroductionToJavaProgramming.PalindromInteger;
+import IntroductionToJavaProgramming.ProductTheDigitsInInteger;
 
 import java.util.Scanner;
 
 public class Main {
 
     public static void main(String[] args) {
-
-        TheAlphabetSticker.getPossibleCharacters();
-
-
+        PalindromInteger.reverse(123);
     }
 
 
