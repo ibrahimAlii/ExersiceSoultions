@@ -1,3 +1,5 @@
+package IntroductionToJavaProgramming;
+
 public class MathCombinations {
 
     public void getCombinations(){

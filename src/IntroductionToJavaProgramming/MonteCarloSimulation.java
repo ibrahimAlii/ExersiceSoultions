@@ -1,3 +1,5 @@
+package IntroductionToJavaProgramming;
+
 public class MonteCarloSimulation {
     public void getSimulation() {
         int totalTrials = 1000000;

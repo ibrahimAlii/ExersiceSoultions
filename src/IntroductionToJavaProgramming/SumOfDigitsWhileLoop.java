@@ -1,3 +1,5 @@
+package IntroductionToJavaProgramming;
+
 import java.util.Scanner;
 
 public class SumOfDigitsWhileLoop {
