@@ -1,4 +1,4 @@
-package IntroductionToJavaProgramming;
+package IntroductionToJavaProgramming.chapter5_methods;
 
 /*
 page 238 - 5.1
