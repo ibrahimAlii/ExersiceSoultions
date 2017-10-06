@@ -6,12 +6,12 @@ public class FinancialApplication {
                                              int year)
     {
 
-        double increaseValue = (increaseAmount / 100) / 12 ;
+        double increaseValue = (increaseAmount * amount / 100) ;
         System.out.println(increaseValue);
         double futureIncreasedAmount = amount * (1 + increaseValue);
         System.out.println("Year         "  + "Future Increase");
         for (int i = 0; i <= year; i++) {
-            futureIncreasedAmount = futureIncreasedAmount * increaseValue;
+            futureIncreasedAmount += futureIncreasedAmount *(increaseValue);
             System.out.println(i + "            " + futureIncreasedAmount);
         }
 return 0;

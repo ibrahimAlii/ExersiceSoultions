@@ -5,6 +5,7 @@
 
 
 
+import IntroductionToJavaProgramming.chapter5_methods.ConversionBetweenCelsiusAndFahrenheit;
 import IntroductionToJavaProgramming.chapter5_methods.FinancialApplication;
 import IntroductionToJavaProgramming.chapter5_methods.FindLargestNumber;
 
@@ -14,8 +15,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-        FinancialApplication.futureIncreaseValue(10000, 9, 5);
-
+        ConversionBetweenCelsiusAndFahrenheit.getCelsiusAndFahrenheit();
     }
 
 
