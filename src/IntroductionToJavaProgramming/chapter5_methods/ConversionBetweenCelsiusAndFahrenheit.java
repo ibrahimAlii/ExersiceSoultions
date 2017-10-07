@@ -1,7 +1,16 @@
 package IntroductionToJavaProgramming.chapter5_methods;
 
 import java.util.Scanner;
+/*
+Page 239  5.8
 
+(Conversion between Celsius and Fahrenheit) Write a class that contain that contain the following two methods:
+public static double celsiusToFahrenheit(double celsius)
+
+public static double fahrenheitToCelsius(double fahrenheit)
+
+.....
+ */
 public class ConversionBetweenCelsiusAndFahrenheit {
     public static double celsiusToFahrenheit(double celsius){
         return (9.0 / 5) * celsius + 32; // return fahrenheit

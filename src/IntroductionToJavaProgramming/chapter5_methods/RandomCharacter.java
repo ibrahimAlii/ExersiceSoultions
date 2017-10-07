@@ -1,4 +1,4 @@
-package IntroductionToJavaProgramming;
+package IntroductionToJavaProgramming.chapter5_methods;
 
 /*
 This class is to generate random character, digits...
@@ -27,7 +27,7 @@ public class RandomCharacter {
         return getRandomCharacter('\u0000', '\uFFFF');
     }
 
-    static void printRandomWhatEver(int NUMBER_OF_CHARACTER,
+    public static void printRandomWhatEver(int NUMBER_OF_CHARACTER,
                                     int NUMBER_OF_LINES,
                                     char char1, char char2) {
         int DIFFERENCE_SQUARE = 4;

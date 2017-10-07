@@ -1,4 +1,4 @@
-package IntroductionToJavaProgramming;
+package IntroductionToJavaProgramming.chapter5_methods;
 
 public class PrimeNumbers {
 
@@ -16,7 +16,7 @@ public class PrimeNumbers {
 
                 if (count % NUMBER_OF_PRIMES_PER_LINE == 0){
                     System.out.printf("%-5s\n", number);
-                    sum += number;
+                    sum += number; //sum for last column
                 }else {
                     System.out.printf("%-5s", number);
                 }
@@ -25,7 +25,6 @@ public class PrimeNumbers {
             number++;
         }
 
-        System.out.print(sum);
     }
 
     private static boolean isPrime(int number) {

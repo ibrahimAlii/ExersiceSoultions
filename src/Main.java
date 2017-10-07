@@ -3,11 +3,10 @@
  */
 
 
-
-
-import IntroductionToJavaProgramming.chapter5_methods.ConversionBetweenCelsiusAndFahrenheit;
-import IntroductionToJavaProgramming.chapter5_methods.FinancialApplication;
-import IntroductionToJavaProgramming.chapter5_methods.FindLargestNumber;
+import IntroductionToJavaProgramming.chapter5_methods.EstimatePI;
+import IntroductionToJavaProgramming.chapter5_methods.PrimeNumbers;
+import IntroductionToJavaProgramming.chapter5_methods.RandomCharacter;
+import IntroductionToJavaProgramming.chapter5_methods.SumSeries;
 
 import java.util.Scanner;
 
@@ -15,7 +14,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-        ConversionBetweenCelsiusAndFahrenheit.getCelsiusAndFahrenheit();
+        EstimatePI.getEstimatedPI(10);
     }
 
 
