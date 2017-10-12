@@ -1,7 +1,7 @@
 package IntroductionToJavaProgramming.chapter5_methods;
 
 public class EstimatePI {
-    public static void getEstimatedPI(int n){
+    public static void getEstimatedPI(){
         double start = 1;			// Start series
         double end   = 901;		// End series
         System.out.println("\ni           m(i)     ");

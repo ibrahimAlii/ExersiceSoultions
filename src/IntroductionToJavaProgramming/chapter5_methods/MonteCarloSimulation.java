@@ -1,4 +1,4 @@
-package IntroductionToJavaProgramming;
+package IntroductionToJavaProgramming.chapter5_methods;
 
 public class MonteCarloSimulation {
     public void getSimulation() {

@@ -8,7 +8,8 @@ public class PalindromInteger {
     public static int reverse(int number){
         if (isPalindrom(number))
             System.out.print("Palindrome");
-        else System.out.print("Not Palindrome");
+        else
+            System.out.print("Not Palindrome");
 
         return 0;
     }
@@ -22,9 +23,6 @@ public class PalindromInteger {
             number = number / 10;
         }
         System.out.print(sum);
-        if (sum == temp)
-            return true;
-        else
-            return false;
+        return sum == temp;
     }
 }

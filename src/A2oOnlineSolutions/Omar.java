@@ -43,12 +43,12 @@ public class Omar {
     public static void getSum(){
 
         Scanner scanner = new Scanner(System.in);
-        int x = 0,y = 0,a,sum;
+        int x = 0,y,a;
         a = scanner.nextInt();
         for (int i = 0; i < a; i++) {
             x= scanner.nextInt();
             y= scanner.nextInt();
-            System.out.println(sum = x + y);
+            System.out.println(x + y);
         }
     }
 }
