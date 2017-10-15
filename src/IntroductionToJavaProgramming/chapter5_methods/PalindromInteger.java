@@ -14,7 +14,7 @@ public class PalindromInteger {
         return 0;
     }
 
-    private static boolean isPalindrom(int number) {
+    public static boolean isPalindrom(int number) {
         int digit, sum = 0, temp;
         temp = number;
         while (number > 0){

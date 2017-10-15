@@ -27,7 +27,7 @@ public class PrimeNumbers {
 
     }
 
-    private static boolean isPrime(int number) {
+    public static boolean isPrime(int number) {
         for (int divisor = 2; divisor <= number / 2 ; divisor++) {
             if (number % divisor == 0){ // if true number is not prime
                 return false;
