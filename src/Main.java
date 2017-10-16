@@ -14,9 +14,12 @@ public class Main {
         //DisplayCurrentDateAndTime.displayDateAndTime();
         //System.out.println(ConvertMillieSeconds.convertMillis(5500));
         //System.out.println(PalindromicPrime.isPalindromicPrime(141) ? "Both" : "Not true");
-        Emirp.printEmirp();
-
+        //Emirp.printEmirp();
+        //MersennePrime.getTwinPrimes();
         //System.out.print((5^9) - 1);
+        //TwinePrime.getTwinPrime();
+        //Craps.startGame();
+        CreditCardNumberValidation.checkCreditCard();
 
     }
 
