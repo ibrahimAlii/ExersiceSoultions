@@ -96,6 +96,7 @@ public class DisplayCurrentDateAndTime {
         return (int) ((System.currentTimeMillis() % millisecondPerYear()) / millisecondsPerMonth()) + 1;
     }
 
+
     private static int year() {
         return (int) (System.currentTimeMillis() / millisecondPerYear()) + 1970;
     }

@@ -19,7 +19,17 @@ public class Main {
         //System.out.print((5^9) - 1);
         //TwinePrime.getTwinPrime();
         //Craps.startGame();
-        CreditCardNumberValidation.checkCreditCard();
+        //CreditCardNumberValidation.checkCreditCard();
+
+        //DisplayCurrentDateAndTime.displayDateAndTime();
+
+        //CurrentDateAndTime.getCurrentDateAndTime();
+//        ZellerCongruence.getDayOfMonth();
+        //AreaOfPentagon.getArea();
+
+        //System.out.println(AreaOfRegularPolygon.area());
+        //System.out.println(FormatInteger.format(34, 0));
+        GeometryPointPosition.getPointPosition();
 
     }
 
