@@ -1,5 +1,6 @@
 import IntroductionToJavaProgramming.chapter5_methods.*;
 import IntroductionToJavaProgramming.chapter6_arrays.*;
+import IntroductionToJavaProgramming.chapter6_arrays.PrimeNumbers;
 
 import java.lang.reflect.Array;
 import java.math.RoundingMode;
@@ -45,14 +46,16 @@ public class Main {
 
 //        int[] arr = {5, 6, 8, 9, 11, 120, 11, 50, 1, 3, 15, 121, 33, 16, 17, 18, 19, 20, 21, 31, 36, 37, 55};
 
-        int[] arr1 = {5, 6, 8, 9, 11, 12, 11, 50, 1, 3, 15, 121, 33, 16, 17, 18, 19, 20, 15};
-        int[] arr2 = {5, 6, 8, 9, 11, 12, 11, 50, 1, 3, 15, 121, 33, 16, 17, 18};
-        InsertionSort.insertionSort(arr1);
-        InsertionSort.insertionSort(arr2);
+        //AssignGrades.assignGrades();
 
+        //DecimalToBinary.decimalToBinary();
 
-        System.out.println(binarySearch(arr1, 12));
-        System.out.println(binarySearch(arr2, 12));
+        //KeyElementSearch.elementSearch();
+
+        //PrintOddAndEvenIndex.printOddAndEven();
+        //PrimeNumbers.getPrimes();
+
+        CountSingleDigit.countSingleDigit();
 
     }
 
