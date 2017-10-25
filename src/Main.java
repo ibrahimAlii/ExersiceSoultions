@@ -19,6 +19,7 @@ public class Main {
 
     public static void main(String[] args) {
 
+        Scanner scanner = new Scanner(System.in);
         //System.out.println(ApproximateTheSquareRoot.getApproximatedSquare(4611685984067649600L));
         //GeometryDisplayAngles.getAngles();
         //DisplayCurrentDateAndTime.displayDateAndTime();
@@ -55,10 +56,27 @@ public class Main {
         //PrintOddAndEvenIndex.printOddAndEven();
         //PrimeNumbers.getPrimes();
 
-        CountSingleDigit.countSingleDigit();
+        //CountSingleDigit.countSingleDigit();
+        //LargestElement.getLargestElement();
+
+//        double[] arr = {1.9, 2.5, 3.7, 2, 1, 6, 3, 4, 5, 2};
+//        System.out.printf("%.5f", ComputeDeviation.deviation(arr));
+
+//        int count = scanner.nextInt();
+//        double[] arr = new double[count];
+//        for (int i = 0; i < count; i++) {
+//            arr[i] = scanner.nextDouble();
+//        }
+//        DoubleContent.doubleIt(arr);
+//        for (int i = 0; i < arr.length; i++) {
+//            System.out.println(arr[i]);
+//        }
+
+        //BinaryVsLinearSearch.runTest();
+        SortingStudent.sortStudents();
+
 
     }
-
 
 
 }
