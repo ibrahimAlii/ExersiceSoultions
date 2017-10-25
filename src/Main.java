@@ -73,7 +73,12 @@ public class Main {
 //        }
 
         //BinaryVsLinearSearch.runTest();
-        SortingStudent.sortStudents();
+        //SortingStudent.sortStudents();
+
+
+//        int[] arr = {1, 2, 3, 4, 5, 6};
+//        System.out.println(CheckSorted.isSorted(arr));
+
 
 
     }

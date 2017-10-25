@@ -34,7 +34,7 @@ public class SortingStudent {
 
             for (int j = i + 1; j < listScores.length; j++) {
                 if (currentMin < listScores[j]){
-                    currentName = listNames[i];
+                    currentName = listNames[j];
                     currentMin = listScores[j];
                     currentMinIndex = j;
                 }
