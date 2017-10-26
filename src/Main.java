@@ -1,6 +1,7 @@
 import IntroductionToJavaProgramming.chapter5_methods.*;
 import IntroductionToJavaProgramming.chapter6_arrays.*;
 import IntroductionToJavaProgramming.chapter6_arrays.PrimeNumbers;
+import com.sun.javafx.image.impl.IntArgb;
 
 import java.lang.reflect.Array;
 import java.math.RoundingMode;
@@ -80,8 +81,11 @@ public class Main {
 //        System.out.println(CheckSorted.isSorted(arr));
 
 
+         BeanMachine.startGame();
+
 
     }
 
 
 }
+
