@@ -8,6 +8,7 @@ import java.math.RoundingMode;
 import java.text.DecimalFormat;
 import java.util.Arrays;
 import java.util.Scanner;
+import java.util.Stack;
 
 import static IntroductionToJavaProgramming.chapter6_arrays.BinarySearch.binarySearch;
 
@@ -81,8 +82,9 @@ public class Main {
 //        System.out.println(CheckSorted.isSorted(arr));
 
 
-         BeanMachine.startGame();
+         //BeanMachine.startGame();
 
+        EightQueen.startSimulation();
 
     }
 
