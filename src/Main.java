@@ -84,7 +84,10 @@ public class Main {
 
          //BeanMachine.startGame();
 
-        EightQueen.startSimulation();
+        //EightQueen.startSimulation();
+        System.out.println(57 % 8);
+        EightQueen_Version2.main(args);
+
 
     }
 
