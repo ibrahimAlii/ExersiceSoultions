@@ -96,7 +96,7 @@ public class Main {
 
         //ConsecutiveFour_6_30.checkConsecutive();
 
-
+        MergedList_6_31.mergeList();
     }
 
 
