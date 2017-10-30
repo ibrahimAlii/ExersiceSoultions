@@ -19,7 +19,7 @@ import java.util.Scanner;
  */
 public class FindNearsPoints {
 
-    public static void findNearsPoints(){
+    public static void findNearsPoints() {
 
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter the number of points");
@@ -32,7 +32,7 @@ public class FindNearsPoints {
             points[i][1] = scanner.nextDouble();
         }
 
-        int point1 = 0, point2 =0;
+        int point1 = 0, point2 = 1;
         double shortestDistance = distance(points[point1][0], points[point1][1],
                 points[point2][0], points[point2][1]);
 
@@ -42,7 +42,7 @@ public class FindNearsPoints {
                 double distance = distance(points[i][0], points[i][1],
                         points[j][0], points[j][1]);
 
-                if (shortestDistance > distance){
+                if (shortestDistance > distance) {
 
                     point1 = i;
                     point2 = j;
@@ -53,12 +53,12 @@ public class FindNearsPoints {
         }
 
         System.out.println("The closest two points is" +
-        "(" + points[point1][0] + ", " + points[point1][1] +") and ("+
-        points[point2][0] + ", " + points[point2][1] + ")");
+                "(" + points[point1][0] + ", " + points[point1][1] + ") and (" +
+                points[point2][0] + ", " + points[point2][1] + ")");
 
     }
 
-    public static double distance(double x1, double y1, double x2, double y2){
+    public static double distance(double x1, double y1, double x2, double y2) {
         return Math.sqrt((x2 - x1) * (x2 - x1) + (y2 - y1) * (y2 - y1));
     }
 }
