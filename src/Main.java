@@ -1,6 +1,7 @@
 import IntroductionToJavaProgramming.chapter5_methods.*;
 import IntroductionToJavaProgramming.chapter6_arrays.*;
 import IntroductionToJavaProgramming.chapter6_arrays.PrimeNumbers;
+import IntroductionToJavaProgramming.chapter7_twoDeimensionalArray.CheckSudokuSolution;
 import IntroductionToJavaProgramming.chapter7_twoDeimensionalArray.FindNearsPoints;
 import com.sun.javafx.image.impl.IntArgb;
 
@@ -24,7 +25,7 @@ public class Main {
 
         Scanner scanner = new Scanner(System.in);
 
-        FindNearsPoints.findNearsPoints();
+        CheckSudokuSolution.checkSudukoSolution();
 
     }
 
