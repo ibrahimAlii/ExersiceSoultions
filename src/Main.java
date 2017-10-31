@@ -1,8 +1,7 @@
 import IntroductionToJavaProgramming.chapter5_methods.*;
 import IntroductionToJavaProgramming.chapter6_arrays.*;
 import IntroductionToJavaProgramming.chapter6_arrays.PrimeNumbers;
-import IntroductionToJavaProgramming.chapter7_twoDeimensionalArray.CheckSudokuSolution;
-import IntroductionToJavaProgramming.chapter7_twoDeimensionalArray.FindNearsPoints;
+import IntroductionToJavaProgramming.chapter7_twoDeimensionalArray.*;
 import com.sun.javafx.image.impl.IntArgb;
 
 import java.lang.reflect.Array;
@@ -21,14 +20,16 @@ import static IntroductionToJavaProgramming.chapter6_arrays.BinarySearch.binaryS
 
 public class Main {
 
+
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
 
-        CheckSudokuSolution.checkSudukoSolution();
+        SubtractMatrix_7_5.subtractMatrix();
+
+
 
     }
-
 
 
 
