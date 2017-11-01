@@ -25,8 +25,7 @@ public class Main {
 
         Scanner scanner = new Scanner(System.in);
 
-        TicTacToe_7_9.startGame();
-        //AllClosestPairsOfPoints_7_8.getAllClosestPoints();
+        LargestRowAndColumn_7_10.findLargestRowAndColumn();
 
 
 
