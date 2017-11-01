@@ -25,7 +25,7 @@ public class Main {
 
         Scanner scanner = new Scanner(System.in);
 
-        LargestRowAndColumn_7_10.findLargestRowAndColumn();
+
 
 
 

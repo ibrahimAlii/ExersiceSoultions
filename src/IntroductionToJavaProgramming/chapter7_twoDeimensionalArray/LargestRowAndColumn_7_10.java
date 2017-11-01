@@ -36,7 +36,7 @@ public class LargestRowAndColumn_7_10 {
 
         int sumColumn = 0, newColumnSum = 0;
         for (int i = 0; i < list.length; i++) {
-            sumColumn = 0;
+            newColumnSum = 0;
             for (int j = 0; j < list.length; j++) {
                 newColumnSum += list[j][i];
 
