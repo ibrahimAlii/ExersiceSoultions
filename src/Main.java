@@ -25,7 +25,8 @@ public class Main {
 
         Scanner scanner = new Scanner(System.in);
 
-        SubtractMatrix_7_5.subtractMatrix();
+        TicTacToe_7_9.startGame();
+        //AllClosestPairsOfPoints_7_8.getAllClosestPoints();
 
 
 
