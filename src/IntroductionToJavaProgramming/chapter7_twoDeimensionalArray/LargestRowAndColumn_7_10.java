@@ -11,7 +11,7 @@ public class LargestRowAndColumn_7_10 {
 
         Scanner input = new Scanner(System.in);
         System.out.println("Enter matrix row and columns size: ");
-        int size = input.nextInt(); // tested on 4*4
+        int size = input.nextInt();
         int[][] list = initiateArr(size);
 
         printLargest(list);

@@ -25,8 +25,7 @@ public class Main {
 
         Scanner scanner = new Scanner(System.in);
 
-
-
+        SortTwoDimensionalArray_7_16.sortArr();
 
 
     }
