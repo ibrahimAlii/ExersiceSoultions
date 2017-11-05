@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class ExploreMatrix {
 
-    public static void exploreMatrix(){
+    public static void exploreMatrix() {
 
         Scanner input = new Scanner(System.in);
         System.out.println("Enter matrix row and columns size: ");
@@ -19,8 +19,9 @@ public class ExploreMatrix {
     private static void printDiagonal(int[][] list, int size) {
 
 
+        //major diagonal
         for (int i = 0; i < list.length; i++) {
-            for (int j = i  ; j < i + 1; j++) {
+            for (int j = i; j < i + 1; j++) {
                 System.out.print(list[i][j] + " ");
             }
         }
@@ -33,8 +34,9 @@ public class ExploreMatrix {
          */
 
         System.out.println();
-        for( int i = 0; i < list.length ; i ++){
-            System.out.print( list[i][(list.length - i) -1] + " ");
+        //major sub-diagonal
+        for (int i = 0; i < list.length; i++) {
+            System.out.print(list[i][(list.length - i) - 1] + " ");
         }
         /*
         or
@@ -97,12 +99,12 @@ public class ExploreMatrix {
                     oneSize++;
             }
             if (zeroSize == size)
-                 row0Statue = "All 0s on row " + row;
+                row0Statue = "All 0s on row " + row;
             else
                 row0Statue = "No full 0s on the same row";
 
             if (oneSize == size)
-                 row1Statue = "All 1s on row " + row;
+                row1Statue = "All 1s on row " + row;
             else
                 row1Statue = "No full 1s on the same row";
         }
