@@ -25,7 +25,8 @@ public class Main {
 
         Scanner scanner = new Scanner(System.in);
 
-        RecognitionFour_7_19.isConsecutiveFour();
+        Game_ConnectFour_7_20.startGame();
+
 
 
     }
