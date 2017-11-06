@@ -83,12 +83,12 @@ public class Game_ConnectFour_7_20_2 {
             int x = j;
             while (x < m[0].length && y >= 0) {
 
-                if (m[y][x].contains(s)) {              // | | | | | |R|R|
-                    occurrence++;                       // | | | | |R|R|R|
-                    if (occurrence == 4) return true;    // | | | |R|R|R|R|
-                } else {                                 // | | |R|R|R|R| |
-                    occurrence = 0;                     // | |R|R|R|R| | |
-                }                                        // |R|R|R|R| | | |
+                if (m[y][x].contains(s)) {
+                    occurrence++;
+                    if (occurrence == 4) return true;
+                } else {
+                    occurrence = 0;
+                }
                 x++;
                 y--;
             }
@@ -97,58 +97,58 @@ public class Game_ConnectFour_7_20_2 {
         // (m.length - 2) --> reason: only checking occurrences of 4
         // and last row has already been checked
         for (int i = m.length - 2; i > 2; i--) {
-            int x = 0; // column always starts on the left side
-            int y = i;
+            int column = 0; // column always starts on the left side
+            int row = i;
             occurrence = 0;
-            while (x < m[0].length && y >= 0) {           // | | | |R|R| | |
-                // | | |R|R| | | |
-                // | |R|R| | | | |
-                if (m[y][x].contains(s)) {                // |R|R| | | | | |
-                    occurrence++;                         // |R| | | | | | |
-                    if (occurrence == 4) return true;     // | | | | | | | |
+            while (column < m[0].length && row >= 0) {  // | | | |R|R| | |
+                                                        // | | |R|R| | | |
+                                                        // | |R|R| | | | |
+                if (m[row][column].contains(s)) {       // |R|R| | | | | |
+                    occurrence++;                       // |R| | | | | | |
+                    if (occurrence == 4) return true;   // | | | | | | | |
                 } else {
                     occurrence = 0;
                 }
 
-                x++;
-                y--;
+                column++;
+                row--;
             }
         }
 
         // j >= 3 --> reason: only checking occurrences of 4
         for (int j = m[0].length - 1; j >= 3; j--) {
-            int y = m.length -1; // row always starts on last row
-            int x = j;
+            int row = m.length -1; // row always starts on last row
+            int column = j;
             occurrence = 0;
 
-            while (x >= 0 && y >= 0) {
-                // |L|L| | | | | |
-                if (m[y][x].contains(s)) {                  // |L|L|L| | | | |
+            while (column >= 0 && row >= 0) {
+                                                            // |L|L| | | | | |
+                if (m[row][column].contains(s)) {           // |L|L|L| | | | |
                     occurrence++;                           // |L|L|L|L| | | |
                     if (occurrence == 4) return true;       // | |L|L|L|L| | |
                 } else {                                    // | | |L|L|L|L| |
                     occurrence = 0;                         // | | | |L|L|L|L|
                 }
-                x--;
-                y--;
+                column--;
+                row--;
             }
 
         }
 
         // i > 2 --> reason: only checking occurrences of 4
         for (int i = m.length - 2; i > 2; i--) {
-            int x = m[0].length - 1;
+            int column = m[0].length - 1;
             int y = i;
             occurrence = 0;
-            while (x >= 0 && y >= 0) {                       // | | |L|L| | | |
-                // | | | |L|L| | |
-                if (m[y][x].contains(s)) {                   // | | | | |L|L| |
+            while (column >= 0 && y >= 0) {                  // | | |L|L| | | |
+                                                             // | | | |L|L| | |
+                if (m[y][column].contains(s)) {              // | | | | |L|L| |
                     occurrence++;                            // | | | | | |L|L|
                     if (occurrence == 4) return true;        // | | | | | | |L|
                 } else {                                     // | | | | | | | |
                     occurrence = 0;
                 }
-                x--;
+                column--;
                 y--;
             }
 

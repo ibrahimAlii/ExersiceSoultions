@@ -25,7 +25,7 @@ public class Main {
 
         Scanner scanner = new Scanner(System.in);
 
-        Game_ConnectFour_7_20.startGame();
+        Game_ConnectFour_7_20_2.startGame();
 
 
 
