@@ -1,17 +1,7 @@
-import IntroductionToJavaProgramming.chapter5_methods.*;
-import IntroductionToJavaProgramming.chapter6_arrays.*;
-import IntroductionToJavaProgramming.chapter6_arrays.PrimeNumbers;
-import IntroductionToJavaProgramming.chapter7_twoDeimensionalArray.*;
-import com.sun.javafx.image.impl.IntArgb;
+import IntroductionToJavaProgramming.chapter7_twoDeimensionalArray.RowSorting_7_26;
 
-import java.lang.reflect.Array;
-import java.math.RoundingMode;
-import java.text.DecimalFormat;
-import java.util.Arrays;
 import java.util.Scanner;
-import java.util.Stack;
 
-import static IntroductionToJavaProgramming.chapter6_arrays.BinarySearch.binarySearch;
 
 /**
  * Created by Ibrahim on 10/08/2017.
@@ -25,8 +15,8 @@ public class Main {
 
         Scanner scanner = new Scanner(System.in);
 
-        Game_ConnectFour_7_20_2.startGame();
 
+        RowSorting_7_26.sortRows();
 
 
     }

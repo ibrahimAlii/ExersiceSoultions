@@ -47,7 +47,7 @@ public class Game_ConnectFour_7_20 {
 
     private static boolean isConsecutiveFour(String[][] list, String currentPlayer, int row, int column) {
         return isConsecutiveFourRow(list, row, currentPlayer) ||
-                isConsecutiveFourColumn(list, column, currentPlayer) ||
+                isConsecutiveFourColumn(list, column, row, currentPlayer) ||
                 isConsecutiveFourMajor(list, currentPlayer, row, column);
     }
 
@@ -59,7 +59,7 @@ public class Game_ConnectFour_7_20 {
         for (int majorDiagonal = currentRow + 1, column = currentColumn; majorDiagonal < list.length; majorDiagonal++, column++) {
             if (countMajorDiagonal == 4)
                 break;
-            if (list[majorDiagonal][column].equals(currentValue))
+            if (list[majorDiagonal][majorDiagonal].equals(currentValue))
                 countMajorDiagonal++;
             else countMajorDiagonal = 0;
             System.out.print(countMajorDiagonal + " ");
@@ -89,10 +89,10 @@ public class Game_ConnectFour_7_20 {
         return countMajorDiagonal == 4 || countMajorSubDiagonal == 4;
     }
 
-    private static boolean isConsecutiveFourColumn(String[][] list, int currentColumn, String currentValue) {
+    private static boolean isConsecutiveFourColumn(String[][] list, int currentColumn, int currentRow, String currentValue) {
 
         int count = 0;
-        for (int row = 0; row < list.length; row++) {
+        for (int row = currentRow; row < list.length; row++) {
             if (list[row][currentColumn].equals(currentValue))
                 count++;
             else
