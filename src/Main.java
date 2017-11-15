@@ -23,8 +23,8 @@ public class Main {
 
         //Scanner scanner = new Scanner(System.in);
 
+        OccurrencesOfDigitInString_9_5.occurrencesOfEachDigitInString();
 
-        CheckSubString_9_2.checkSubString();
     }
 
 

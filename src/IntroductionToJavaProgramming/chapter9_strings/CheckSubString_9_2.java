@@ -17,6 +17,7 @@ public class CheckSubString_9_2 {
         //Display result
         System.out.println(subString + " is " + (isSubString(subString, string) ? "Sub-String From " : "Not-SubString From ") + string);
 
+
     }
 
     private static boolean isSubString(String subString, String string) {
