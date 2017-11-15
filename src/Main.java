@@ -2,8 +2,7 @@ import IntroductionToJavaProgramming.chapter7_twoDeimensionalArray.ColumnSorting
 import IntroductionToJavaProgramming.chapter7_twoDeimensionalArray.LargestBlock_7_35;
 import IntroductionToJavaProgramming.chapter7_twoDeimensionalArray.RowSorting_7_26;
 import IntroductionToJavaProgramming.chapter8_objectsAndClasses.Rectangle_8_1;
-import IntroductionToJavaProgramming.chapter9_strings.HexToDecimal;
-import IntroductionToJavaProgramming.chapter9_strings.PalindromeString;
+import IntroductionToJavaProgramming.chapter9_strings.*;
 
 import javax.swing.*;
 import java.awt.event.ActionEvent;
@@ -20,13 +19,12 @@ import java.util.Scanner;
 public class Main {
 
 
-
     public static void main(String[] args) {
 
-        Scanner scanner = new Scanner(System.in);
+        //Scanner scanner = new Scanner(System.in);
 
-        HexToDecimal.hexToDecimal();
 
+        CheckSubString_9_2.checkSubString();
     }
 
 
