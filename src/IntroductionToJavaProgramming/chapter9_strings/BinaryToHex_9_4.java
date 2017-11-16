@@ -2,6 +2,7 @@ package IntroductionToJavaProgramming.chapter9_strings;
 
 import java.util.Scanner;
 
+
 public class BinaryToHex_9_4 {
 
     public static void binaryToHex() {
@@ -19,38 +20,28 @@ public class BinaryToHex_9_4 {
     }
 
     private static String binaryToHex(String binary) {
-
-        int digitNumber = 1;
-        int sum = 0;
-        String hexValue = "";
+        int decimalValue = 0;
+        int length = binary.length() - 1;
         for (int i = 0; i < binary.length(); i++) {
-            if (digitNumber == 1)
-                sum += Integer.parseInt(binary.charAt(i) + "") * 8;
-            else if (digitNumber == 2)
-                sum += Integer.parseInt(binary.charAt(i) + "") * 4;
-            else if (digitNumber == 3)
-                sum += Integer.parseInt(binary.charAt(i) + "") * 2;
-            else if (digitNumber == 4 || i < binary.length() + 1) {
-                sum += Integer.parseInt(binary.charAt(i) + "") * 1;
-                digitNumber = 0;
-                if (sum < 10)
-                    hexValue += sum;
-                else if (sum == 10)
-                    hexValue += "A";
-                else if (sum == 11)
-                    hexValue += "B";
-                else if (sum == 12)
-                    hexValue += "C";
-                else if (sum == 13)
-                    hexValue += "D";
-                else if (sum == 14)
-                    hexValue += "E";
-                else if (sum == 15)
-                    hexValue += "F";
-                sum = 0;
-            }
-            digitNumber++;
+            decimalValue += Integer.parseInt(binary.charAt(i) + "") * Math.pow(2, length);
+            length--;
         }
-        return hexValue;
+        return decimalToHex(decimalValue);
+    }
+    private static String decimalToHex(int decimal){
+        String hex = "";
+        while (decimal != 0){
+            int hexValue = decimal % 16;
+            hex = toHexChar(hexValue) + hex;
+            decimal = decimal / 16;
+        }
+        return hex;
+    }
+
+    private static char toHexChar(int hexValue) {
+        if (hexValue <= 9 && hexValue >= 0)
+            return (char)(hexValue + '0');
+        else
+            return (char)(hexValue - 10 + 'A');
     }
 }
