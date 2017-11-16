@@ -1,3 +1,4 @@
+import IntroductionToJavaProgramming.chapter6_arrays.DecimalToBinary;
 import IntroductionToJavaProgramming.chapter7_twoDeimensionalArray.ColumnSorting_7_27;
 import IntroductionToJavaProgramming.chapter7_twoDeimensionalArray.LargestBlock_7_35;
 import IntroductionToJavaProgramming.chapter7_twoDeimensionalArray.RowSorting_7_26;
@@ -23,7 +24,7 @@ public class Main {
 
         //Scanner scanner = new Scanner(System.in);
 
-        BinaryToHex_9_4.binaryToHex();
+        SortCharactersInString_9_11.sortCharactersInString();
 
 
     }
