@@ -23,7 +23,8 @@ public class Main {
 
         //Scanner scanner = new Scanner(System.in);
 
-        OccurrencesOfDigitInString_9_5.occurrencesOfEachDigitInString();
+        BinaryToHex_9_4.binaryToHex();
+
 
     }
 
