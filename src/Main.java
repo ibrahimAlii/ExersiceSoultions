@@ -28,7 +28,7 @@ public class Main {
 
         //Scanner scanner = new Scanner(System.in);
 
-
+        GameHangman_9_25.startGame();
 
 
     }
