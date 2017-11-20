@@ -1,4 +1,7 @@
+import IntroductionToJavaProgramming.chapter10_ThinkingInObjects.ApproximateBigDecimal;
+import IntroductionToJavaProgramming.chapter10_ThinkingInObjects.MersennePrimeBigInteger;
 import IntroductionToJavaProgramming.chapter10_ThinkingInObjects.Rectangle2D;
+import IntroductionToJavaProgramming.chapter5_methods.ApproximateTheSquareRoot;
 import IntroductionToJavaProgramming.chapter6_arrays.DecimalToBinary;
 import IntroductionToJavaProgramming.chapter7_twoDeimensionalArray.ColumnSorting_7_27;
 import IntroductionToJavaProgramming.chapter7_twoDeimensionalArray.LargestBlock_7_35;
@@ -27,24 +30,9 @@ public class Main {
 
     public static void main(String[] args) {
 
-        Scanner input = new Scanner(System.in);
+        //Scanner input = new Scanner(System.in);
 
-        // Create 5 x 2 matrix
-        double[][] points = new double[5][2];
-
-        // Prompt the user to enter five points
-        System.out.print("\nEnter five points: ");
-        for (int i = 0; i < points.length; i++) {
-            for (int j = 0; j < points[i].length; j++) {
-                points[i][j] = input.nextDouble();
-            }
-        }
-
-        Rectangle2D r1 = Rectangle2D.getRectangle(points);
-
-        System.out.println("The bounding rectangle's center (" + r1.getX() + ", " +
-                r1.getY() + "), width " + r1.getWidth() + ", height " + r1.getHigh());
-
+        ApproximateBigDecimal.approximateBigDecimal();
     }
 
 

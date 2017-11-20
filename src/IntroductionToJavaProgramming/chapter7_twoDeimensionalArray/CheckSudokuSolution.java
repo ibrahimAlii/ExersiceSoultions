@@ -24,15 +24,15 @@ public class CheckSudokuSolution {
     }
 
     private static boolean isValid(int i, int j, int[][] grid) {
-
+        //check columns
         for (int column = 0; column < grid.length; column++)
             if (column != j && grid[i][column] == grid[i][j])
                 return false;
-
+        //check rows
         for (int row = 0; row < grid.length; row++)
             if (row != i && grid[row][j] == grid[i][j])
                 return false;
-
+        //check diagonals
         for (int row = (i / 3) * 3; row < (i / 3) * 3 + 3; row++)
             for (int column = (j / 3) * 3; column < (j / 3) * 3 + 3; column++)
                 if (row != i && column != j && grid[row][column] == grid[i][j])
