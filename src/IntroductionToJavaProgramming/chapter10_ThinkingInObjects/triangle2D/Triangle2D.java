@@ -140,10 +140,10 @@ public class Triangle2D {
 
         // Check if point is the border of the triangle
         MyPoint p = new MyPoint(x, y);
-        boolean side1 = p.onTheLineSegment(p1, p2);
-        boolean side2 = p.onTheLineSegment(p1, p3);
-        boolean side3 = p.onTheLineSegment(p2, p3);
-        return side1 || side2 || side3;
+        boolean side1 = p.onTheLineSegment(p1, p2); //assume A to B
+        boolean side2 = p.onTheLineSegment(p1, p3); //assume B to C
+        boolean side3 = p.onTheLineSegment(p2, p3); //assume C to A
+        return side1 || side2 || side3; //return true if any point of these vertices inside triangle.
 
     }
 
@@ -168,19 +168,13 @@ public class Triangle2D {
     }
 
 
-    public boolean onTheLineSegment(double x0, double y0, double x1, double y1, double x2, double y2) {
-
-        double position = (x1 - x0) * (y2 - y0) - (x2 - x0) * (y1 - y0);
-
-        return position <= 0.0000000001 && ((x0 <= x2 && x2 <= x1) || (x0 >= x2 && x2 >= x1));
-    }
 
     /**
      * returns true if the specified triangle is inside this triangle.
      **/
     public boolean contains(Triangle2D t) {
 
-        return contains(t.p1) && contains(t.p2) && contains(t.p3);
+        return contains(t.p1) && contains(t.p2) && contains(t.p3); //All three points is inside the triangle
     }
 
     /**
