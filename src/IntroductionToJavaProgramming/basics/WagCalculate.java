@@ -1,4 +1,4 @@
-package IntroductionToJavaProgramming;
+package IntroductionToJavaProgramming.basics;
 
 import java.text.DecimalFormat;
 import java.util.Scanner;

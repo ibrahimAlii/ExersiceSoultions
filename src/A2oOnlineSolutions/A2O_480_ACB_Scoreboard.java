@@ -1,5 +1,0 @@
-package A2oOnlineSolutions;
-
-public class A2O_480_ACB_Scoreboard {
-    int SUBMISSION_TIME,CONTESTANTS, SOLVED_PROBLEMS, SUBMISSIONS, SUBMISSION_CASE;
-}

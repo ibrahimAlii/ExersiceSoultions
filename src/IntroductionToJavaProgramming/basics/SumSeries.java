@@ -1,4 +1,4 @@
-package IntroductionToJavaProgramming;
+package IntroductionToJavaProgramming.basics;
 
 /**
  * Created by Ibrahim on 10/08/2017.

@@ -1,4 +1,4 @@
-package IntroductionToJavaProgramming;
+package IntroductionToJavaProgramming.basics;
 
 public class DecimalToHexConversion {
 
