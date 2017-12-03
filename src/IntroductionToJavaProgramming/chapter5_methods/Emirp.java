@@ -1,6 +1,5 @@
 package IntroductionToJavaProgramming.chapter5_methods;
 
-import org.omg.PortableInterceptor.SYSTEM_EXCEPTION;
 
 /*
 // And emirp (prime spelled backward)

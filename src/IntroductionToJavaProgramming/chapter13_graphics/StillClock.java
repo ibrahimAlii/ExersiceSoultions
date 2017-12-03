@@ -1,6 +1,5 @@
 package IntroductionToJavaProgramming.chapter13_graphics;
 
-import sun.awt.geom.AreaOp;
 
 import javax.swing.*;
 import java.awt.*;
