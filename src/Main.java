@@ -17,20 +17,18 @@ import java.util.Scanner;
 public class Main extends JFrame  {
 
     public Main() {
-       add(new MultiplicationTable_13_5(9));
 
+        add(new PlotSineAndCosFunc());
     }
 
 
     public static void main(String[] args) {
-//        Main main = new Main();
-//        main.setTitle("Clock");
-//        main.setLocationRelativeTo(null);
-//        main.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
-//        main.setVisible(true);
-//        main.setSize(300, 200);
-        new TicTacToe().startGame();
-        //TicTacToe_7_9.startGame();
+        Main main = new Main();
+        main.setTitle("Clock");
+        main.setLocationRelativeTo(null);
+        main.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
+        main.setVisible(true);
+        main.setSize(300, 200);
 
     }
 

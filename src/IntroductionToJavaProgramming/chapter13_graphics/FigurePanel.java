@@ -33,6 +33,7 @@ public class FigurePanel extends JPanel {
     private int startAngel;
     private int arcAngel;
 
+
     //No-arg constructor
     public FigurePanel() {
 
@@ -141,20 +142,16 @@ public class FigurePanel extends JPanel {
         repaint();
     }
 
+    //Draw polyline
+
     //Draw Arc
-    public FigurePanel drawArc(Color color, int x, int y, int width,
-                        int height, int startAngel, int arcAngel){
+    public FigurePanel drawArc(Color color, int startAngel, int arcAngel){
         this.color = color;
-        this.xCoordinate = x;
-        this.yCoordinate = y;
-        this.width = width;
-        this.height = height;
         this.startAngel = startAngel;
         this.arcAngel = arcAngel;
         this.type = ARC;
         repaint();
-
-        return this;
+        return FigurePanel.this;
     }
 
     public int getType() {
@@ -182,6 +179,10 @@ public class FigurePanel extends JPanel {
     protected void paintComponent(Graphics g) {
         super.paintComponent(g);
 
+        int xCenter = getWidth() / 2;
+        int yCenter = getHeight() / 2;
+        int radius = (int)(Math.min(getWidth(), getHeight()) * 0.4);
+
         g.setColor(color);
         switch (type) {
             //Draw Line
@@ -189,46 +190,57 @@ public class FigurePanel extends JPanel {
                 g.drawLine(xCoordinate, yCoordinate, xCoordinate2, yCoordinate2);
                 break;
             case RECTANGLE:
-                if (filled)
+                if (filled) {
                     g.fillRect(xCoordinate, yCoordinate, width, height);
-                else
+                }
+                else {
                     g.drawRect(xCoordinate, yCoordinate, width, height);
+                }
                 break;
-                //Draw Rectangle
+            //Draw Rectangle
             case ROUND_RECTANGLE:
-                if (filled)
+                if (filled) {
                     g.fillRoundRect(xCoordinate, yCoordinate, width, height,
                             20, 20);
-                else
+                }
+                else {
                     g.drawRoundRect(xCoordinate, yCoordinate, width, height,
                             20, 20);
+                }
                 break;
-                //Draw Oval
+            //Draw Oval
             case OVAL:
-                if (filled)
+                if (filled) {
                     g.fillOval(xCoordinate, yCoordinate, width, height);
-                else
+                }
+                else {
                     g.drawOval(xCoordinate, yCoordinate, width, height);
+                }
                 break;
-                //Draw Polygon
+            //Draw Polygon
             case POLYGON:
-                if (filled)
+                if (filled) {
                     g.fillPolygon(xPoly, yPoly, xPoly.length);
-                else
+                }
+                else {
                     g.drawPolygon(xPoly, yPoly, xPoly.length);
+                }
                 break;
-                //Draw Arc
+            //Draw Arc
             case ARC:
+                int x = xCenter - radius;
+                int y = yCenter - radius;
                 if (filled)
-                    g.fillArc(xCoordinate, yCoordinate, width, height, startAngel, arcAngel);
+                    g.fillArc(x, y, 2 * radius, 2 * radius, startAngel, arcAngel);
                 else
-                    g.drawArc(xCoordinate, yCoordinate, width, height, startAngel, arcAngel);
+                    g.drawArc(x, y, 2 * radius, 2 * radius, startAngel, arcAngel);
                 break;
                 //Draw Cross Lines _|
             case CROSS_LINE:
                 g.drawLine(0, yCoordinate, xCoordinate2, yCoordinate2);//vertical line
                 g.drawLine(xCoordinate, 0, xCoordinate2, yCoordinate2);//horizontal line
                 break;
+
 
         }
     }
