@@ -32,5 +32,6 @@ public class PlotSineAndCosFunc extends JPanel {
         g.drawString("-2\u03c0", 100, 100);
         g.drawString("2\u03c0", 300, 100);
         g.drawString("0", 200, 100);
+
     }
 }
