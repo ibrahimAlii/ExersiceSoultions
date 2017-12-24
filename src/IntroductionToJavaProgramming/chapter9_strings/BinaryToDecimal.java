@@ -28,8 +28,8 @@ public class BinaryToDecimal {
                 else
                     decimalNumber += Integer.parseInt(String.valueOf(binaryNumber.charAt(i)));
 
-                length--;
+            length--;
         }
-return decimalNumber;
+        return decimalNumber;
     }
 }
