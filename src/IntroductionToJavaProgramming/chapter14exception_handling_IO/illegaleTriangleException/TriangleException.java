@@ -3,7 +3,7 @@ package IntroductionToJavaProgramming.chapter14exception_handling_IO.illegaleTri
 import java.util.Scanner;
 
 public class TriangleException {
-    public static void main(String[] args) {
+    public static void triangleException() {
         // Create a Scanner object
         Scanner input = new Scanner(System.in);
 

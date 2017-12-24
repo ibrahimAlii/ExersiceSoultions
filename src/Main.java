@@ -60,7 +60,7 @@ abstract class Main {
 
         Scanner input = new Scanner(System.in);
 
-        ArrayIndexOutOfBoundsExceptions.arrayIndexPutOfBoundException();
+
 
 
     }
