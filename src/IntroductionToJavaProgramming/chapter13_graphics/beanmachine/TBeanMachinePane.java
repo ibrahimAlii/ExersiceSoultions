@@ -21,36 +21,39 @@ import java.util.ArrayList;
 public class TBeanMachinePane extends Pane{
 
     // Bean machine measurements
-    double w = 800; // Pane default width
-    double h = 800; // Pane default height
-    double gap; // distance gap between slot lines
-    double radius; // peg's radius
-    double dropX; // Drop ball starting x point
-    double dropY; // Drop ball starting y point  //
-    int numOfSlots; // numbers of slots
+    private double w = 800; // Pane default width
+    private double h = 800; // Pane default height
+    private double gap; // distance gap between slot lines
+    private double radius; // peg's radius
+    private double dropX; // Drop ball starting x point
+    private double dropY; // Drop ball starting y point  //
+    private int numOfSlots; // numbers of slots
+    private double ballSpeed; //ball speed
+    private double dropSpeed; // drop speed
 
     // Line's sequence drawn matters
-    Line baseLine;
-    Line leftSLine; // left side line (bottom left)
-    Line rightSLine; //  right side line (bottom right)
-    Line[] cSlotLines; // center slot lines
-    Line midLeftSLine; // middle left line
-    Line midRightSLine; // middle right line
-    Line topLeftSLine; // top left line
-    Line topRightSLine; // top right line
+    private Line baseLine;
+    private Line leftSLine; // left side line (bottom left)
+    private Line rightSLine; //  right side line (bottom right)
+    private Line[] cSlotLines; // center slot lines
+    private Line midLeftSLine; // middle left line
+    private Line midRightSLine; // middle right line
+    private Line topLeftSLine; // top left line
+    private Line topRightSLine; // top right line
 
 
     // Triangle pegs
-    Circle[] pegs; // PEEGGSSSSS
+    private Circle[] pegs; // PEEGGSSSSS
 
     // Dropped balls
-    ArrayList<Circle> balls;
-    ArrayList<Circle> fineshedBalls;
-    ArrayList<Polyline> ballPaths;
+    private ArrayList<Circle> balls;
+    private ArrayList<Circle> fineshedBalls;
+    private ArrayList<Polyline> ballPaths;
 
     // Animation
-    ArrayList<PathTransition> mPathTransitions = new ArrayList<>();
+    private ArrayList<PathTransition> mPathTransitions = new ArrayList<>();
 
+    //Default constructor
     private TBeanMachinePane() {
         baseLine = new Line();
         baseLine.translateYProperty().bind(translateXProperty());
@@ -67,23 +70,39 @@ public class TBeanMachinePane extends Pane{
 
     }
 
-    public TBeanMachinePane(int slots, double width, double height) {
+    /**
+     *
+     * @param slots specify how many slots the bean machine have
+     * @param width specify the width for the game
+     * @param height specify the height
+     * @param ballSpeed specify the ball speed from top to bottom
+     * @param dropSpeed specify the drop speed we can use {mPathTransitions.size()} to drop each ball alone
+     */
+    public TBeanMachinePane(int slots, double width, double height,
+                            double ballSpeed, double dropSpeed) {
         this();
         initSlotLinesAndPegs(slots); // All layout nodes are initialized after this point
 
         numOfSlots = slots;
+        this.ballSpeed = ballSpeed;
+        this.dropSpeed = dropSpeed;
         setMinWidth(w = width);
         setMinHeight(h = height);
         setMaxSize(width, height);
 
+        //Draw the layout
         drawLayout();
+
         addLayoutShapes();
 
     }
 
+    /**
+     *  To drop new ball
+     */
     public void dropBall() {
         Circle ball = new Circle(dropX, dropY, radius);
-        Polyline polyline = generatePath();
+        Polyline polyline = /*Generate the path for the ball*/generatePath();
         ObservableList<Double> list = polyline.getPoints();
         double x = list.get(list.size() - 2);
         double y = list.get(list.size() - 1);
@@ -93,13 +112,17 @@ public class TBeanMachinePane extends Pane{
         balls.add(ball);
 
 
-        PathTransition path = new PathTransition(Duration.seconds(8), polyline, ball);
+        PathTransition path = new PathTransition(Duration.seconds(ballSpeed), polyline, ball);
 
         mPathTransitions.add(path);
-        path.setDelay(Duration.seconds(mPathTransitions.size()));
+        path.setDelay(Duration.seconds(/*mPathTransitions.size()*/ dropSpeed));
 
+        //Draw the balls
         getChildren().addAll(ball);
+
+        /*Draw the path where the ball goes*/
         //getChildren().addAll(polyline);
+
         path.play();
     }
 
