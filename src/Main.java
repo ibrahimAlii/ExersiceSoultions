@@ -1,8 +1,6 @@
 
-import IntroductionToJavaProgramming.chapter14exception_handling_IO.ArrayIndexOutOfBoundsExceptions;
+import IntroductionToJavaProgramming.chapter14exception_handling_IO.*;
 import IntroductionToJavaProgramming.chapter14exception_handling_IO.NumberFormatException;
-import IntroductionToJavaProgramming.chapter14exception_handling_IO.ReformatJavaSourceCode;
-import IntroductionToJavaProgramming.chapter14exception_handling_IO.RemoveTextFromFile;
 
 import javax.swing.*;
 import java.io.File;
@@ -61,7 +59,7 @@ abstract class Main {
 
 
         Scanner input = new Scanner(System.in);
-        ReformatJavaSourceCode.reformat();
+        CountCharsWordsAndLinesInFile.count();
 
 
 
