@@ -6,47 +6,45 @@ import java.util.Scanner;
 
 public class CountCharsWordsAndLinesInFile {
 
+    private static int lines = 0;
+    private static int words = 0;
+    private static int characters = 0;
     public static void count() throws IOException{
 
         //Get file path
         File file = new File("D:\\Android\\AndroidStudioProjects\\javaProjects\\src\\IntroductionToJavaProgramming\\chapter14exception_handling_IO/ArrayIndexOutOfBoundsExceptions.java");
 
         //Count Characters, words, and Lines
-        int[] arr = countContent(file);
+        countContent(file);
 
-        System.out.println("\nFile contain " + arr[0] + " characters\n" +
-        arr[1] + " words\n" + arr[2] + " lines");
+        System.out.println("\nFile contain " + characters + " characters\n" +
+        words + " words\n" + lines + " lines");
     }
 
-    private static int[] countContent(File file) throws IOException{
-        int[] arr = new int[3];
-        /**
-         * arr[0] for characters
-         * arr[1] for words
-         * arr[2] for lines
-         */
+    private static void countContent(File file) throws IOException{
+
         Scanner read = new Scanner(file);
         if (file.exists()){
-            arr = countLinesAndCharacters(file);
+            //Count @Lines and @Characters
+            countLinesAndCharacters(file);
 
-            //Count words
+            //Count @Words
             while (read.hasNext()){
                 String word = read.next();
-               arr[1]++;
+                words++;
             }
         }
         read.close();
-        return arr;
+
     }
 
-    private static int[] countLinesAndCharacters(File file) throws IOException{
+    private static void countLinesAndCharacters(File file) throws IOException{
         Scanner read = new Scanner(file);
-        int[] linesAndCharacters = new int[3];
         while (read.hasNext()){
-            linesAndCharacters[2]++;
+            lines++;
             String line = read.nextLine();
-            linesAndCharacters[0] += line.length();
+            characters += line.length();
         }
-        return linesAndCharacters;
+
     }
 }
