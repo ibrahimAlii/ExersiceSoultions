@@ -1,3 +1,10 @@
+import IntroductionToJavaProgramming.chapter15_abstractClassesandInterfaces.AbstractDrawnFunction;
+import IntroductionToJavaProgramming.chapter15_abstractClassesandInterfaces.F_15_1.F2;
+import IntroductionToJavaProgramming.chapter15_abstractClassesandInterfaces.F_15_1.FCos;
+import IntroductionToJavaProgramming.chapter15_abstractClassesandInterfaces.F_15_1.FSin;
+import IntroductionToJavaProgramming.chapter15_abstractClassesandInterfaces.F_15_1.FTan;
+
+import javax.swing.*;
 
 /**
  * Created by Ibrahim on 10/08/2017.
@@ -5,13 +12,13 @@
 
 
 
- public class Main {
+ public class Main extends JFrame {
 
 
     public Main() {
 
-
     }
+
 //    TBeanMachinePane pane;
 //    @Override
 //    public void start(Stage primaryStage) throws Exception {
@@ -30,8 +37,12 @@
 //    }
 
 
-    public static void main(String[] args) {
 
+    public static void main(String[] args) {
+        Main main = new Main();
+        main.add(new FCos());
+        main.setVisible(true);
+        main.setSize(300, 300);
 
     }
 
