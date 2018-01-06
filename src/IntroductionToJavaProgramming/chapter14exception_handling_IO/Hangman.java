@@ -15,7 +15,6 @@ public class Hangman {
         //Get random word
         String randomWord = getRandomWord(file);
 
-        System.out.println(randomWord);
         //Hide word
         String hiddenWord = hideWord(randomWord);
 
@@ -24,8 +23,8 @@ public class Hangman {
 
         //Show result
         System.out.println("The word is " + randomWord +
-                (missedCount == 0 ? "You didn't missed" :
-                        (missedCount == 1) ? "You missed one time" : "You missed " + missedCount + " times"));
+                (missedCount == 0 ? " You didn't missed" :
+                        (missedCount == 1) ? " You missed one time" : " You missed " + missedCount + " times"));
     }
 
     private static int guessing(String hiddenWord, String randomWord) {
@@ -33,6 +32,7 @@ public class Hangman {
         Scanner in = new Scanner(System.in);
         char guessedChar;
         int missed = 0;
+        System.out.println(hiddenWord);
 
         do {
             System.out.println("Enter one character: ");
