@@ -1,5 +1,7 @@
 import IntroductionToJavaProgramming.chapter15_abstractClassesandInterfaces.AbstractDrawnFunction;
+import IntroductionToJavaProgramming.chapter15_abstractClassesandInterfaces.DisplayCalendarInLabel;
 import IntroductionToJavaProgramming.chapter15_abstractClassesandInterfaces.F_15_1.*;
+import IntroductionToJavaProgramming.chapter15_abstractClassesandInterfaces.SortArrayList;
 
 import javax.swing.*;
 import java.sql.Array;
@@ -16,6 +18,7 @@ import java.util.Arrays;
 
 
     public Main() {
+
 
     }
 
@@ -39,12 +42,10 @@ import java.util.Arrays;
 
 
     public static void main(String[] args) {
-//        Main main = new Main();
-//        main.add(new FCos());
-//        main.setVisible(true);
-//        main.setSize(300, 300);
+        DisplayCalendarInLabel displayCalendarInLabel = new DisplayCalendarInLabel();
 
-
+        displayCalendarInLabel.setDefaultCloseOperation(EXIT_ON_CLOSE);
+        displayCalendarInLabel.setVisible(true);
     }
 
 

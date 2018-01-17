@@ -1,4 +1,4 @@
-package IntroductionToJavaProgramming.chapter15_abstractClassesandInterfaces.F_15_1;
+package IntroductionToJavaProgramming.chapter15_abstractClassesandInterfaces;
 
 import java.util.ArrayList;
 import java.util.Random;
