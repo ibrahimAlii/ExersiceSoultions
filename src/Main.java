@@ -1,10 +1,10 @@
 import IntroductionToJavaProgramming.chapter15_abstractClassesandInterfaces.AbstractDrawnFunction;
-import IntroductionToJavaProgramming.chapter15_abstractClassesandInterfaces.F_15_1.F2;
-import IntroductionToJavaProgramming.chapter15_abstractClassesandInterfaces.F_15_1.FCos;
-import IntroductionToJavaProgramming.chapter15_abstractClassesandInterfaces.F_15_1.FSin;
-import IntroductionToJavaProgramming.chapter15_abstractClassesandInterfaces.F_15_1.FTan;
+import IntroductionToJavaProgramming.chapter15_abstractClassesandInterfaces.F_15_1.*;
 
 import javax.swing.*;
+import java.sql.Array;
+import java.util.ArrayList;
+import java.util.Arrays;
 
 /**
  * Created by Ibrahim on 10/08/2017.
@@ -39,10 +39,11 @@ import javax.swing.*;
 
 
     public static void main(String[] args) {
-        Main main = new Main();
-        main.add(new FCos());
-        main.setVisible(true);
-        main.setSize(300, 300);
+//        Main main = new Main();
+//        main.add(new FCos());
+//        main.setVisible(true);
+//        main.setSize(300, 300);
+
 
     }
 
