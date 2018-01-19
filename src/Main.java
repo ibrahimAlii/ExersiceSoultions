@@ -42,10 +42,7 @@ import java.util.Arrays;
 
 
     public static void main(String[] args) {
-        DisplayCalendarInLabel displayCalendarInLabel = new DisplayCalendarInLabel();
-
-        displayCalendarInLabel.setDefaultCloseOperation(EXIT_ON_CLOSE);
-        displayCalendarInLabel.setVisible(true);
+        System.out.println(Math.sqrt(2));
     }
 
 
