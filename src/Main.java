@@ -1,9 +1,9 @@
-import IntroductionToJavaProgramming.chapter15_abstractClassesandInterfaces.AbstractDrawnFunction;
-import IntroductionToJavaProgramming.chapter15_abstractClassesandInterfaces.DisplayCalendarInLabel;
+import IntroductionToJavaProgramming.chapter15_abstractClassesandInterfaces.*;
 import IntroductionToJavaProgramming.chapter15_abstractClassesandInterfaces.F_15_1.*;
-import IntroductionToJavaProgramming.chapter15_abstractClassesandInterfaces.SortArrayList;
+import IntroductionToJavaProgramming.chapter16_event_driven_programming.ControlCircle;
 
 import javax.swing.*;
+import java.awt.*;
 import java.sql.Array;
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -42,7 +42,11 @@ import java.util.Arrays;
 
 
     public static void main(String[] args) {
-
+        JFrame main = new ControlCircle();
+        //main.add(new JuliaSetCanvas());
+        main.setSize(new Dimension(500, 500));
+        main.setVisible(true);
+        main.setDefaultCloseOperation(EXIT_ON_CLOSE);
     }
 
 
