@@ -1,5 +1,6 @@
 import IntroductionToJavaProgramming.chapter15_abstractClassesandInterfaces.*;
 import IntroductionToJavaProgramming.chapter15_abstractClassesandInterfaces.F_15_1.*;
+import IntroductionToJavaProgramming.chapter16_event_driven_programming.AnimationDemo;
 import IntroductionToJavaProgramming.chapter16_event_driven_programming.ControlCircle;
 import IntroductionToJavaProgramming.chapter16_event_driven_programming.MoveMessageDemo;
 
@@ -43,7 +44,7 @@ import java.util.Arrays;
 
 
     public static void main(String[] args) {
-        JFrame main = new MoveMessageDemo();
+        JFrame main = new AnimationDemo("Testttt");
         //main.add(new JuliaSetCanvas());
         main.setSize(500, 500);
         main.setVisible(true);
