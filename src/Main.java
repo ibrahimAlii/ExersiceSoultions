@@ -1,9 +1,6 @@
 import IntroductionToJavaProgramming.chapter15_abstractClassesandInterfaces.*;
 import IntroductionToJavaProgramming.chapter15_abstractClassesandInterfaces.F_15_1.*;
-import IntroductionToJavaProgramming.chapter16_event_driven_programming.AnimationDemo;
-import IntroductionToJavaProgramming.chapter16_event_driven_programming.ClockAnimation;
-import IntroductionToJavaProgramming.chapter16_event_driven_programming.ControlCircle;
-import IntroductionToJavaProgramming.chapter16_event_driven_programming.MoveMessageDemo;
+import IntroductionToJavaProgramming.chapter16_event_driven_programming.*;
 
 import javax.swing.*;
 import java.awt.*;
@@ -45,7 +42,7 @@ import java.util.Arrays;
 
 
     public static void main(String[] args) {
-        JFrame main = new ClockAnimation();
+        JFrame main = new PickFourCards();
         //main.add(new JuliaSetCanvas());
         main.setSize(500, 500);
         main.setVisible(true);
