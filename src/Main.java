@@ -42,7 +42,7 @@ import java.util.Arrays;
 
 
     public static void main(String[] args) {
-        JFrame main = new MouseListener();
+        JFrame main = new DisplayMousePosition();
         //main.add(new JuliaSetCanvas());
         main.setSize(500, 500);
         main.setVisible(true);
