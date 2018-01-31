@@ -9,14 +9,11 @@ import java.awt.event.MouseEvent;
 public class MouseListener extends JFrame {
 
     public MouseListener(){
-        MouseAction mouseAction = new MouseAction();
 
-        mouseAction.setFocusable(true);
-
-        add(mouseAction);
+        add(new MouseAction());
     }
 
-    class MouseAction extends JPanel {
+    private class MouseAction extends JPanel {
 
 
         private MouseAction(){
