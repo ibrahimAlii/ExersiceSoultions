@@ -8,13 +8,13 @@ import java.awt.event.ActionListener;
 
 public class DisplayRunningFan extends JFrame {
 
-    private Fan fan;
+
 
 
     public DisplayRunningFan() {
-        fan = new Fan();
 
-        add(fan);
+
+        add(new Fan());
 
     }
 
@@ -24,9 +24,9 @@ public class DisplayRunningFan extends JFrame {
         private int angle = 100;
         private int direction = 1;
         private int speed = 10;
-        protected Timer timer = new Timer(speed, new TimerListener());
+        private Timer timer = new Timer(speed, new TimerListener());
 
-        public Fan() {
+        private Fan() {
             timer.start();
         }
 
@@ -73,7 +73,7 @@ public class DisplayRunningFan extends JFrame {
 
             @Override
             public void actionPerformed(ActionEvent e) {
-                fan.repaint();
+                repaint();
             }
         }
     }
