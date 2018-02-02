@@ -42,9 +42,10 @@ import java.util.Arrays;
 
 
     public static void main(String[] args) {
-        JFrame main = new DisplayMousePosition();
+        JFrame main = new DisplayRunningFan();
         //main.add(new JuliaSetCanvas());
         main.setSize(500, 500);
+        main.setLocationRelativeTo(null);
         main.setVisible(true);
         main.setDefaultCloseOperation(EXIT_ON_CLOSE);
     }
