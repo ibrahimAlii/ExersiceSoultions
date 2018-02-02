@@ -1,6 +1,5 @@
 package IntroductionToJavaProgramming.chapter16_event_driven_programming;
 
-import IntroductionToJavaProgramming.chapter10_ThinkingInObjects.Time;
 
 import javax.swing.*;
 import java.awt.*;
@@ -10,45 +9,72 @@ import java.awt.event.ActionListener;
 public class DisplayRunningFan extends JFrame {
 
     private Fan fan;
-    public DisplayRunningFan(){
+
+
+    public DisplayRunningFan() {
         fan = new Fan();
+
         add(fan);
 
-        //Timer timer = new Timer(1000, new TimerListener());
-
-        //timer.start();
     }
 
-    class Fan extends JPanel{
+    class Fan extends JPanel {
+        private int xCenter, yCenter;
+        private int fanRadius, bladeLength;
+        private int angle = 100;
+        private int direction = 1;
+        private int speed = 10;
+        protected Timer timer = new Timer(speed, new TimerListener());
 
-        private int xCenter = getWidth() / 2;
-        private int yCenter = getHeight() / 2;
-        private int radius = (int)(Math.min(getWidth(), getHeight()) * 0.4);
+        public Fan() {
+            timer.start();
+        }
 
-        private int x = xCenter - radius;
-        private int y = yCenter - radius;
+        public void reverse() {
+            direction = -direction;
+        }
 
-
+        public void setSpeed(int ms) {
+            speed = ms;
+            timer.setDelay(speed);
+        }
 
         @Override
         protected void paintComponent(Graphics g) {
             super.paintComponent(g);
-            g.drawArc(x, y, 2 * radius, 2 * radius, 0, 30);
-            for (int i = 0; i < 4; i++) {
-                int startAngel = (int) (Math.random() * 360);
-                int arcAngel = (int) (Math.random() * 360);
-                g.fillArc(x, y, 2 * radius, 2 * radius, startAngel, arcAngel);
-            }
+
+            // Set clock radius, and center
+            fanRadius = (int) (Math.min(getSize().width, getSize().height) * 0.9 * 0.5);
+            xCenter = (getSize().width) / 2;
+            yCenter = (getSize().height) / 2;
+            bladeLength = (int) (fanRadius * 0.9);
+            angle = (angle + direction) % 360;
+
+            // Draw circle
+            g.setColor(Color.black);
+            g.drawOval(xCenter - fanRadius, yCenter - fanRadius,
+                    2 * fanRadius, 2 * fanRadius);
+
+            // Draw four blades
+            drawBlade(g, angle);
+            drawBlade(g, angle + 90);
+            drawBlade(g, angle + 180);
+            drawBlade(g, angle + 270);
+        }
+
+        private void drawBlade(Graphics g, int angle) {
+            g.setColor(Color.red);
+            g.fillArc(xCenter - bladeLength, yCenter - bladeLength,
+                    2 * bladeLength, 2 * bladeLength, angle, 30);
         }
 
 
-    }
+        class TimerListener implements ActionListener {
 
-    class TimerListener implements ActionListener{
-
-        @Override
-        public void actionPerformed(ActionEvent e) {
-            fan.repaint();
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                fan.repaint();
+            }
         }
     }
 }
