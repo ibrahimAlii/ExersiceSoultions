@@ -6,6 +6,7 @@ import java.awt.event.MouseMotionAdapter;
 
 public class HitBalloonsGame extends JFrame{
 
+    ///
     Game game = new Game();
     public HitBalloonsGame(){
 
