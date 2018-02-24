@@ -10,10 +10,12 @@ public class HitBalloonsGame extends JFrame {
     private Game game = new Game();
     private Circle balloon;
     private Circle shoot;
-    Timer timer = new Timer(10000, new Game());
+    Timer timer;
+    // TODO: 24/02/2018 complete this game
 
     public HitBalloonsGame() {
 
+        timer = new Timer(500, new Game());
         game.requestFocus();
         add(game);
     }
@@ -28,8 +30,8 @@ public class HitBalloonsGame extends JFrame {
         private int balloonX;
         private int balloonY;
 
-        private int x;
-        private int y;
+        private int mX;
+        private int mY;
 
         public Game() {
 
@@ -50,9 +52,8 @@ public class HitBalloonsGame extends JFrame {
                 public void mouseClicked(MouseEvent e) {
                     super.mouseClicked(e);
                     isFired = true;
-                    repaint();
                     timer.start();
-
+                    repaint();
                 }
             });
         }
@@ -77,21 +78,22 @@ public class HitBalloonsGame extends JFrame {
 
             g.drawOval(balloonX, balloonY, 20, 20);
 
-            if (isFired){
-                g.fillOval(x, y, 10, 10);
+            if (isFired) {
+                g.fillOval(mX, mY, 10, 10);
             }
             balloonExist = true;
         }
 
         @Override
         public void actionPerformed(ActionEvent e) {
-            if (shoot.getCenterY() < game.getHeight() /*&& shoot.getCenterX() < getWidth()*/) {
-                // shoot.setCenterX(shoot.getCenterX() + 1);
-                System.out.println(shoot.getCenterY());
 
-                x = (int)shoot.getCenterX();
-                y = (int)shoot.getCenterY();
-                System.out.println(shoot.getCenterX() + " " + shoot.getCenterY());
+            if (shoot.getCenterY() < game.getHeight() && shoot.getCenterY() > 0/*&& shoot.getCenterX() < getWidth()*/) {
+                // shoot.setCenterX(shoot.getCenterX() + 1);
+                mY = (int) (shoot.getCenterY() - 1);
+                shoot.setCenterY(mY);
+                mX = (int) (shoot.getCenterX() - 1);
+                shoot.setCenterX(mX);
+                System.out.println(shoot.getCenterY());
                 repaint();
             }
         }
