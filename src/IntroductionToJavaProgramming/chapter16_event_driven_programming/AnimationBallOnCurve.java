@@ -5,41 +5,66 @@ import java.awt.event.ActionListener;
 
 public class AnimationBallOnCurve extends JFrame {
 
+
     BallOnCurve ballOnCurve = new BallOnCurve();
-    int x = -getWidth();
-    Timer timer = new Timer(300, ballOnCurve);
+    Timer timer = new Timer(10000, ballOnCurve);
 
     public AnimationBallOnCurve() {
 
         add(ballOnCurve);
         ballOnCurve.requestFocus();
         timer.start();
+
     }
 
     class BallOnCurve extends JPanel implements ActionListener {
 
-        public BallOnCurve() {
-
-        }
+        private int sineX = 0;
+        private int mX = -360;
+        private Polygon pSin;
+        //private Polygon pCos;
 
         @Override
         public void actionPerformed(ActionEvent e) {
-            if (x < ballOnCurve.getWidth())
-                x += 1;
-            else x = -getWidth();
-
             repaint();
-
         }
 
         @Override
         protected void paintComponent(Graphics g) {
             super.paintComponent(g);
 
-            g.drawLine(getWidth() / 2, 0, (int) (getWidth() * Math.sin((x / 100.0) * 2 * Math.PI)), getHeight() - 90);
-            g.fillOval((int) (getWidth() * Math.sin((x / 100.0) * 2 * Math.PI)), getHeight() - 90, 20, 20);
+            // Draw sine and cosine curve
+            drawSineCosiceCurve(g);
+            if (mX < 360) {
+                g.drawOval(mX + 200, 100 - (int) (50 * Math.sin((mX / 100.0) * 2 * Math.PI)),
+                        15, 15);
+                mX++;
+            }else mX = -360;
+            repaint();
+        }
+
+        private void drawSineCosiceCurve(Graphics g) {
+            pSin = new Polygon();
+            //pCos = new Polygon();
+
+            for (sineX = -360; sineX <= 360; sineX++) {
+                pSin.addPoint(sineX + 200,
+                        100 - (int) (50 * Math.sin((sineX / 100.0) * 2 * Math.PI)));
+
+                //pCos.addPoint(sineX + 200,
+                //      100 - (int)(50 * Math.cos((sineX / 100.0) * 2 * Math.PI)));
+
+            }
 
 
+            g.drawLine(0, 100, 500, 100);
+            g.setColor(Color.red);
+            g.drawPolyline(pSin.xpoints, pSin.ypoints, pSin.npoints);
+            g.setColor(Color.BLUE);
+            //g.drawPolyline(pCos.xpoints, pCos.ypoints, pCos.npoints);
+            g.drawString("-2\u03c0", 100, 100);
+            g.drawString("2\u03c0", 300, 100);
+            g.drawString("0", 200, 100);
         }
     }
 }
