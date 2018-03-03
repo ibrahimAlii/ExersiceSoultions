@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2a48d9be-4006-42d4-8acc-ecae1c498a0c" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter16_event_driven_programming/Pendulum.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter17_gui/DescriptionPanel.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter16_event_driven_programming/AnimationBallOnCurve.java" afterPath="$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter16_event_driven_programming/AnimationBallOnCurve.java" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,106 +14,104 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="HitBalloonsGame.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter16_event_driven_programming/HitBalloonsGame.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1632">
-              <caret line="101" column="0" lean-forward="false" selection-start-line="101" selection-start-column="0" selection-end-line="101" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MoveCircleUsingMouse.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter16_event_driven_programming/MoveCircleUsingMouse.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="31" column="34" lean-forward="false" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SelfAvoidingRandomWalk.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter16_event_driven_programming/SelfAvoidingRandomWalk.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PlotSineAndCosFunc.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter13_graphics/PlotSineAndCosFunc.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="19" column="9" lean-forward="false" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TBeanMachinePane.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter13_graphics/beanmachine/TBeanMachinePane.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="27" column="21" lean-forward="false" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="39" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MyPoint.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter10_ThinkingInObjects/triangle2D/MyPoint.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="18" lean-forward="false" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PaneCollection.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter13_graphics/PaneCollection.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Pendulum.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter16_event_driven_programming/Pendulum.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
+            <state relative-caret-position="391">
               <caret line="26" column="24" lean-forward="false" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AnimationBallOnCurve.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AnimationBallOnCurve.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter16_event_driven_programming/AnimationBallOnCurve.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HangmanAnimation.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter16_event_driven_programming/HangmanAnimation.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="22" column="5" lean-forward="false" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MyInteger.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter10_ThinkingInObjects/MyInteger.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Fibonacci.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/IntroductionToJavaProgramming/basics/Fibonacci.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="20" column="0" lean-forward="false" selection-start-line="13" selection-start-column="10" selection-end-line="20" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PrimeNumberSequenceGenerator.java" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_65/src.zip!/com/sun/org/apache/xerces/internal/util/PrimeNumberSequenceGenerator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="26" column="12" lean-forward="false" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PrimeNumbers.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter6_arrays/PrimeNumbers.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="25" column="13" lean-forward="false" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SumSeries.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/IntroductionToJavaProgramming/basics/SumSeries.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SumOfDigitsWhileLoop.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/IntroductionToJavaProgramming/basics/SumOfDigitsWhileLoop.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DescriptionPanel.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter17_gui/DescriptionPanel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -135,6 +132,7 @@
         <option value="$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter16_event_driven_programming/HitBalloonsGame.java" />
         <option value="$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter16_event_driven_programming/AnimationBallOnCurve.java" />
         <option value="$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter16_event_driven_programming/Pendulum.java" />
+        <option value="$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter17_gui/DescriptionPanel.java" />
       </list>
     </option>
   </component>
@@ -144,11 +142,11 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="784" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-7" />
+    <option name="y" value="2" />
+    <option name="width" value="1378" />
+    <option name="height" value="773" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -165,6 +163,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -183,20 +182,12 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="IntroductionToJavaProgramming" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Introduction-To-Java-Programming" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Introduction-To-Java-Programming" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="IntroductionToJavaProgramming" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter16_event_driven_programming" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="AndroidView" />
     </panes>
   </component>
@@ -205,10 +196,11 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="settings.github" />
-    <property name="SearchEverywhereHistoryKey" value="PaneColl&#9;FILE&#9;file://C:/Users/sun_m/Desktop/Introduction-To-Java-Programming/src/IntroductionToJavaProgramming/chapter13_graphics/PaneCollection.java&#10;MyPoin&#9;FILE&#9;file://C:/Users/sun_m/Desktop/Introduction-To-Java-Programming/src/IntroductionToJavaProgramming/chapter10_ThinkingInObjects/triangle2D/MyPoint.java&#10;TBeanMachine&#9;FILE&#9;file://C:/Users/sun_m/Desktop/Introduction-To-Java-Programming/src/IntroductionToJavaProgramming/chapter13_graphics/beanmachine/TBeanMachinePane.java" />
+    <property name="SearchEverywhereHistoryKey" value="Prim&#9;FILE&#9;file://C:/Users/sun_m/Desktop/Introduction-To-Java-Programming/src/IntroductionToJavaProgramming/chapter6_arrays/PrimeNumbers.java&#10;Prime&#9;PSI&#9;JAVA://com.sun.org.apache.xerces.internal.util.PrimeNumberSequenceGenerator&#10;PaneColl&#9;FILE&#9;file://C:/Users/sun_m/Desktop/Introduction-To-Java-Programming/src/IntroductionToJavaProgramming/chapter13_graphics/PaneCollection.java&#10;MyPoin&#9;FILE&#9;file://C:/Users/sun_m/Desktop/Introduction-To-Java-Programming/src/IntroductionToJavaProgramming/chapter10_ThinkingInObjects/triangle2D/MyPoint.java&#10;TBeanMachine&#9;FILE&#9;file://C:/Users/sun_m/Desktop/Introduction-To-Java-Programming/src/IntroductionToJavaProgramming/chapter13_graphics/beanmachine/TBeanMachinePane.java" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\sun_m\Desktop\Introduction-To-Java-Programming\src\IntroductionToJavaProgramming\chapter17_gui" />
       <recent name="C:\Users\sun_m\Desktop\Introduction-To-Java-Programming\src\IntroductionToJavaProgramming\chapter16_event_driven_programming" />
     </key>
   </component>
@@ -331,7 +323,15 @@
       <workItem from="1519358909520" duration="2785000" />
       <workItem from="1519454983410" duration="4101000" />
       <workItem from="1519550384261" duration="602000" />
-      <workItem from="1519566895658" duration="540000" />
+      <workItem from="1519566895658" duration="1139000" />
+      <workItem from="1519644870456" duration="1797000" />
+      <workItem from="1519811185174" duration="2584000" />
+      <workItem from="1519903952914" duration="592000" />
+      <workItem from="1519924437943" duration="1318000" />
+      <workItem from="1519981346338" duration="588000" />
+      <workItem from="1520010188458" duration="637000" />
+      <workItem from="1520080198278" duration="591000" />
+      <workItem from="1520106121254" duration="1241000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1517893839399</created>
@@ -365,11 +365,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16910000" />
+    <option name="totallyTimeSpent" value="26857000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="784" extended-state="1" />
-    <editor active="true" />
+    <frame x="-7" y="2" width="1378" height="773" extended-state="0" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -380,10 +379,10 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297546" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32917318" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2685325" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30424887" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -417,62 +416,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter16_event_driven_programming/RacingCar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter16_event_driven_programming/FlashingLabel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter16_event_driven_programming/MoveTheBall.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1275">
-          <caret line="75" column="22" lean-forward="false" selection-start-line="75" selection-start-column="22" selection-end-line="75" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter16_event_driven_programming/MouseListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter16_event_driven_programming/DisplayMousePosition.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter16_event_driven_programming/SlideShow.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter16_event_driven_programming/GeometryInsideTheShape.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="27" column="19" lean-forward="true" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="33" column="46" lean-forward="false" selection-start-line="33" selection-start-column="46" selection-end-line="33" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter16_event_driven_programming/ClockAnimation.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -701,7 +644,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -709,9 +651,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1632">
           <caret line="101" column="0" lean-forward="false" selection-start-line="101" selection-start-column="0" selection-end-line="101" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -719,9 +658,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
           <caret line="31" column="34" lean-forward="false" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -729,7 +665,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -737,7 +672,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="19" column="9" lean-forward="false" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -745,7 +679,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="16" column="18" lean-forward="false" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter13_graphics/beanmachine/TBeanMachinePane.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="27" column="21" lean-forward="false" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="39" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -757,25 +704,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter13_graphics/beanmachine/TBeanMachinePane.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="27" column="21" lean-forward="false" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="39" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter16_event_driven_programming/Pendulum.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
+        <state relative-caret-position="391">
           <caret line="26" column="24" lean-forward="false" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
           <folding />
         </state>
@@ -786,6 +717,72 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter16_event_driven_programming/HangmanAnimation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="22" column="5" lean-forward="false" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter10_ThinkingInObjects/MyInteger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/IntroductionToJavaProgramming/basics/Fibonacci.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="13" selection-start-column="10" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_65/src.zip!/com/sun/org/apache/xerces/internal/util/PrimeNumberSequenceGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="26" column="12" lean-forward="false" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter6_arrays/PrimeNumbers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="13" lean-forward="false" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/IntroductionToJavaProgramming/basics/SumSeries.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/IntroductionToJavaProgramming/basics/SumOfDigitsWhileLoop.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter17_gui/DescriptionPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
