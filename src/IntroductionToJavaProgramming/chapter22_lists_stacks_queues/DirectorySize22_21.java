@@ -1,4 +1,3 @@
-package chapter22;
 
 import java.io.File;
 import java.util.Arrays;
@@ -8,7 +7,7 @@ public class DirectorySize22_21 {
 
     public static void main(String[] gg) {
 
-        System.out.println(getSize(new File("C:\\Users\\sun_m\\Desktop\\evennumberedexercise")));
+        System.out.println(getSize(new File("path")));
 
     }
 

@@ -1,4 +1,3 @@
-package chapter22;
 
 import javax.swing.*;
 import java.awt.*;

@@ -1,4 +1,3 @@
-package chapter22.bouncingballs;
 
 import javax.swing.*;
 import java.awt.*;
@@ -10,7 +9,24 @@ public class BallPanel extends JPanel {
 
     int delay = 10;
     ArrayList<Ball> balls = new ArrayList<>();
-    Timer timer = new Timer(delay, e -> repaint());
+
+    Timer timer = new Timer(delay, e -> {
+        for (int i = 0; i < balls.size(); i++) {
+            Ball ball = balls.get(i);
+
+            for (int j = 0; j < balls.size(); j++) {
+                if (j != i) {
+                    Ball ball1 = balls.get(j);
+                    if (ball.circle.intersects(ball1.x, ball1.y, ball1.radius * 2, ball1.radius * 2)) {
+                        ball.radius += ball1.radius;
+                        balls.remove(ball1);
+                    }
+                }
+            }
+        }
+        repaint();
+
+    });
 
     public BallPanel() {
         timer.start();
@@ -40,9 +56,15 @@ public class BallPanel extends JPanel {
 
             ball.x += ball.dx;
             ball.y += ball.dy;
+
+            ball.circle.setCenterX(ball.x);
+            ball.circle.setCenterY(ball.y);
+
             g.fillOval(ball.x - ball.radius, ball.y - ball.radius,
                     ball.radius * 2, ball.radius * 2);
+
         }
+
     }
 
     public void suspend() {

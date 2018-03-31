@@ -1,4 +1,3 @@
-package chapter22.bouncingballs;
 
 import bouncingballs.BallsControl;
 

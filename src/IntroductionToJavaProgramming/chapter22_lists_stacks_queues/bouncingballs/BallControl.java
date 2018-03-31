@@ -1,4 +1,3 @@
-package chapter22.bouncingballs;
 
 import javax.swing.*;
 import javax.swing.border.LineBorder;
