@@ -1,4 +1,4 @@
-package chapter20;
+package IntroductionToJavaProgramming.chapter20_recursion;
 
 import javax.swing.*;
 import java.awt.*;

@@ -13,7 +13,7 @@ public class ClockAnimation extends JFrame {
     public ClockAnimation(){
         add(clock);
 
-        //Create a timer with delay 1000ms
+        //Create a timer with time 1000ms
         Timer timer = new Timer(1000, new TimerListener());
         timer.start();
     }

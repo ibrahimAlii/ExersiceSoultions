@@ -1,3 +1,5 @@
+package IntroductionToJavaProgramming.chapter18_appletsAndMultimedia;
+
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;

@@ -1,3 +1,7 @@
+package IntroductionToJavaProgramming.chapter18_appletsAndMultimedia;
+
+import IntroductionToJavaProgramming.chapter16_event_driven_programming.RacingCar;
+
 import javax.swing.*;
 import javax.swing.border.LineBorder;
 import java.awt.*;

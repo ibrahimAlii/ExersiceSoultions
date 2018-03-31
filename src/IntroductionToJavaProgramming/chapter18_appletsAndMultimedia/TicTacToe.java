@@ -1,4 +1,4 @@
-package TicTacToe;
+package IntroductionToJavaProgramming.chapter18_appletsAndMultimedia;
 
 import javax.swing.*;
 import javax.swing.border.LineBorder;

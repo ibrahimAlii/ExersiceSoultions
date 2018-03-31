@@ -1,4 +1,6 @@
-package chapter21;
+package IntroductionToJavaProgramming.chapter21_generics;
+
+import IntroductionToJavaProgramming.chapter21_generics.GenericMatrix;
 
 public class IntegerMatrix extends GenericMatrix<Integer> {
     @Override

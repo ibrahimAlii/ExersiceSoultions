@@ -1,5 +1,7 @@
+package IntroductionToJavaProgramming.chapter22_lists_stacks_queues.bouncingballs;
 
-import javax.swing.*;
+import javafx.scene.shape.Circle;
+
 import java.awt.*;
 
 public class Ball {

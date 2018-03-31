@@ -1,4 +1,4 @@
-package chapter19;
+package IntroductionToJavaProgramming.chapter19_binaryIO;
 
 import java.io.*;
 import java.util.Random;

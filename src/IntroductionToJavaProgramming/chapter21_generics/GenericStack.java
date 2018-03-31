@@ -1,4 +1,4 @@
-package chapter21;
+package IntroductionToJavaProgramming.chapter21_generics;
 
 import java.util.Arrays;
 

@@ -1,8 +1,8 @@
-package chapter19;
+package IntroductionToJavaProgramming.chapter19_binaryIO;
 
 import java.io.*;
 
-public class CreateBinaryDataFile {
+public class BinaryDataFile {
 
     public static void main(String[] args) throws IOException {
 

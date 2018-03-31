@@ -1,4 +1,4 @@
-package chapter19;
+package IntroductionToJavaProgramming.chapter19_binaryIO;
 
 import javax.swing.*;
 import java.awt.*;

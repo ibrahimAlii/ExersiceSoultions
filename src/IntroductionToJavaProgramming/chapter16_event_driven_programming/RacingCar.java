@@ -1,4 +1,4 @@
-import javafx.scene.shape.Circle;
+package IntroductionToJavaProgramming.chapter16_event_driven_programming;
 
 import javax.swing.*;
 import java.awt.*;
@@ -9,11 +9,12 @@ public class RacingCar extends JFrame {
 
     private int radius = 5;
     Car car = new Car();
+    int time = 100;
     public RacingCar(){
 
         add(car);
 
-        Timer timer = new Timer(100, new TimerListener());
+        Timer timer = new Timer(time, new TimerListener());
         timer.start();
     }
 
@@ -28,13 +29,18 @@ public class RacingCar extends JFrame {
             repaint();
         }
     }
-    class Car extends JPanel{
+    public class Car extends JPanel{
 
-        private int xCoordinate = 0;
-        private int yCoordinate = 100;
+        public int xCoordinate = 0;
+        public int yCoordinate = 100;
 
-        void moveForward(){
+        public void moveForward(){
             xCoordinate++;
+        }
+        public void setSpeed(int delay){
+
+            time = delay;
+            repaint();
         }
         void moveBackWard(){
             xCoordinate--;

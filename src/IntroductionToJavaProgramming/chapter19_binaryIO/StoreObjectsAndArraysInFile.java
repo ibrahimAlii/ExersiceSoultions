@@ -1,4 +1,4 @@
-package chapter19;
+package IntroductionToJavaProgramming.chapter19_binaryIO;
 
 import java.io.FileOutputStream;
 import java.io.IOException;
@@ -18,7 +18,7 @@ public class StoreObjectsAndArraysInFile {
 
         output.writeDouble(value);
         output.writeObject(arr);
-        output.writeObject(data);
+        output.writeObject(date);
 
         output.close();
 
