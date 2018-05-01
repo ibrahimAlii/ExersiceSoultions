@@ -2,132 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2a48d9be-4006-42d4-8acc-ecae1c498a0c" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/../DaleelElKheir-master/app/src/main/java/yackeen/com/daleel/conact/ContactDialog.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../DaleelElKheir-master/app/src/main/java/yackeen/com/daleel/conact/SpinnerAdapter.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../DaleelElKheir-master/app/src/main/java/yackeen/com/daleel/home/BottomNavListener.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../DaleelElKheir-master/app/src/main/java/yackeen/com/daleel/home/listener/ChosenId.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../DaleelElKheir-master/app/src/main/java/yackeen/com/daleel/home/model/SpinnerAdapterModel.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../DaleelElKheir-master/app/src/main/java/yackeen/com/daleel/organization/AllOrganization.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../DaleelElKheir-master/app/src/main/java/yackeen/com/daleel/organization/AllOrganizationAdapter.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../DaleelElKheir-master/app/src/main/java/yackeen/com/daleel/user/ChosenCat.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../DaleelElKheir-master/app/src/main/java/yackeen/com/daleel/user/ClickListener.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../DaleelElKheir-master/app/src/main/java/yackeen/com/daleel/user/EditProfile.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../DaleelElKheir-master/app/src/main/java/yackeen/com/daleel/user/adapters/AddCategories.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../DaleelElKheir-master/app/src/main/java/yackeen/com/daleel/user/adapters/FilterSpinnerAdapter.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../DaleelElKheir-master/app/src/main/res/anim/anim_in.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../DaleelElKheir-master/app/src/main/res/anim/anim_out.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../DaleelElKheir-master/app/src/main/res/drawable/contactback.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../DaleelElKheir-master/app/src/main/res/layout/activity_edit_profile.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../DaleelElKheir-master/app/src/main/res/layout/contact_dialog.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../DaleelElKheir-master/app/src/main/res/layout/fragment_chat.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../DaleelElKheir-master/app/src/main/res/layout/profile_followed_lists.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter24_developingEfficientAlgorithm/CommonRecurrenceRelations.java" />
-      <change beforePath="$PROJECT_DIR$/../DaleelElKheir-master/.idea/gradle.xml" afterPath="$PROJECT_DIR$/../DaleelElKheir-master/.idea/gradle.xml" />
-      <change beforePath="$PROJECT_DIR$/../DaleelElKheir-master/.idea/misc.xml" afterPath="$PROJECT_DIR$/../DaleelElKheir-master/.idea/misc.xml" />
-      <change beforePath="$PROJECT_DIR$/../DaleelElKheir-master/.idea/modules.xml" afterPath="$PROJECT_DIR$/../DaleelElKheir-master/.idea/modules.xml" />
-      <change beforePath="$PROJECT_DIR$/../DaleelElKheir-master/app/build.gradle" afterPath="$PROJECT_DIR$/../DaleelElKheir-master/app/build.gradle" />
-      <change beforePath="$PROJECT_DIR$/../DaleelElKheir-master/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/../DaleelElKheir-master/app/src/main/AndroidManifest.xml" />
-      <change beforePath="$PROJECT_DIR$/../DaleelElKheir-master/app/src/main/java/yackeen/com/daleel/about/AboutAdapter.java" afterPath="$PROJECT_DIR$/../DaleelElKheir-master/app/src/main/java/yackeen/com/daleel/about/AboutAdapter.java" />
-      <change beforePath="$PROJECT_DIR$/../DaleelElKheir-master/app/src/main/java/yackeen/com/daleel/about/AboutFragment.java" afterPath="$PROJECT_DIR$/../DaleelElKheir-master/app/src/main/java/yackeen/com/daleel/about/AboutFragment.java" />
-      <change beforePath="$PROJECT_DIR$/../DaleelElKheir-master/app/src/main/java/yackeen/com/daleel/allcases/AllCasesActivity.java" afterPath="$PROJECT_DIR$/../DaleelElKheir-master/app/src/main/java/yackeen/com/daleel/allcases/AllCasesActivity.java" />
-      <change beforePath="$PROJECT_DIR$/../DaleelElKheir-master/app/src/main/java/yackeen/com/daleel/allcases/AllCasesAdapter.java" afterPath="$PROJECT_DIR$/../DaleelElKheir-master/app/src/main/java/yackeen/com/daleel/allcases/AllCasesAdapter.java" />
-      <change beforePath="$PROJECT_DIR$/../DaleelElKheir-master/app/src/main/java/yackeen/com/daleel/allcases/DetailActivity.java" afterPath="$PROJECT_DIR$/../DaleelElKheir-master/app/src/main/java/yackeen/com/daleel/allcases/DetailActivity.java" />
-      <change beforePath="$PROJECT_DIR$/../DaleelElKheir-master/app/src/main/java/yackeen/com/daleel/allcases/model/CaseModel.java" afterPath="$PROJECT_DIR$/../DaleelElKheir-master/app/src/main/java/yackeen/com/daleel/allcases/model/CaseModel.java" />
-      <change beforePath="$PROJECT_DIR$/../DaleelElKheir-master/app/src/main/java/yackeen/com/daleel/bloodbank/BloodBankDetail.java" afterPath="$PROJECT_DIR$/../DaleelElKheir-master/app/src/main/java/yackeen/com/daleel/bloodbank/BloodBankDetail.java" />
-      <change beforePath="$PROJECT_DIR$/../DaleelElKheir-master/app/src/main/java/yackeen/com/daleel/bloodbank/BloodBankList.java" afterPath="$PROJECT_DIR$/../DaleelElKheir-master/app/src/main/java/yackeen/com/daleel/bloodbank/BloodBankList.java" />
-      <change beforePath="$PROJECT_DIR$/../DaleelElKheir-master/app/src/main/java/yackeen/com/daleel/bloodbank/BloodBanksActivity.java" afterPath="$PROJECT_DIR$/../DaleelElKheir-master/app/src/main/java/yackeen/com/daleel/bloodbank/BloodBanksActivity.java" />
-      <change beforePath="$PROJECT_DIR$/../DaleelElKheir-master/app/src/main/java/yackeen/com/daleel/bloodbank/ContactsAdapter.java" afterPath="$PROJECT_DIR$/../DaleelElKheir-master/app/src/main/java/yackeen/com/daleel/bloodbank/ContactsAdapter.java" />
-      <change beforePath="$PROJECT_DIR$/../DaleelElKheir-master/app/src/main/java/yackeen/com/daleel/conact/ContactActivity.java" afterPath="$PROJECT_DIR$/../DaleelElKheir-master/app/src/main/java/yackeen/com/daleel/conact/ContactActivity.java" />
-      <change beforePath="$PROJECT_DIR$/../DaleelElKheir-master/app/src/main/java/yackeen/com/daleel/connection/FetchData.java" afterPath="$PROJECT_DIR$/../DaleelElKheir-master/app/src/main/java/yackeen/com/daleel/connection/FetchData.java" />
-      <change beforePath="$PROJECT_DIR$/../DaleelElKheir-master/app/src/main/java/yackeen/com/daleel/constants/Constants.java" afterPath="$PROJECT_DIR$/../DaleelElKheir-master/app/src/main/java/yackeen/com/daleel/constants/Constants.java" />
-      <change beforePath="$PROJECT_DIR$/../DaleelElKheir-master/app/src/main/java/yackeen/com/daleel/events/EventDetail.java" afterPath="$PROJECT_DIR$/../DaleelElKheir-master/app/src/main/java/yackeen/com/daleel/events/EventDetail.java" />
-      <change beforePath="$PROJECT_DIR$/../DaleelElKheir-master/app/src/main/java/yackeen/com/daleel/events/EventsAdapter.java" afterPath="$PROJECT_DIR$/../DaleelElKheir-master/app/src/main/java/yackeen/com/daleel/events/EventsAdapter.java" />
-      <change beforePath="$PROJECT_DIR$/../DaleelElKheir-master/app/src/main/java/yackeen/com/daleel/events/EventsFragment.java" afterPath="$PROJECT_DIR$/../DaleelElKheir-master/app/src/main/java/yackeen/com/daleel/events/EventsFragment.java" />
-      <change beforePath="$PROJECT_DIR$/../DaleelElKheir-master/app/src/main/java/yackeen/com/daleel/events/EventsModel.java" afterPath="$PROJECT_DIR$/../DaleelElKheir-master/app/src/main/java/yackeen/com/daleel/events/EventsModel.java" />
-      <change beforePath="$PROJECT_DIR$/../DaleelElKheir-master/app/src/main/java/yackeen/com/daleel/events/OnEventFragmentStop.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../DaleelElKheir-master/app/src/main/java/yackeen/com/daleel/home/AdapterViewpager.java" afterPath="$PROJECT_DIR$/../DaleelElKheir-master/app/src/main/java/yackeen/com/daleel/home/AdapterViewpager.java" />
-      <change beforePath="$PROJECT_DIR$/../DaleelElKheir-master/app/src/main/java/yackeen/com/daleel/home/FilterSpinnerAdapter.java" afterPath="$PROJECT_DIR$/../DaleelElKheir-master/app/src/main/java/yackeen/com/daleel/home/FilterSpinnerAdapter.java" />
-      <change beforePath="$PROJECT_DIR$/../DaleelElKheir-master/app/src/main/java/yackeen/com/daleel/home/MainActivity.java" afterPath="$PROJECT_DIR$/../DaleelElKheir-master/app/src/main/java/yackeen/com/daleel/home/MainActivity.java" />
-      <change beforePath="$PROJECT_DIR$/../DaleelElKheir-master/app/src/main/java/yackeen/com/daleel/home/NewsFeedAdapter.java" afterPath="$PROJECT_DIR$/../DaleelElKheir-master/app/src/main/java/yackeen/com/daleel/home/NewsFeedAdapter.java" />
-      <change beforePath="$PROJECT_DIR$/../DaleelElKheir-master/app/src/main/java/yackeen/com/daleel/home/NewsFeedFragment.java" afterPath="$PROJECT_DIR$/../DaleelElKheir-master/app/src/main/java/yackeen/com/daleel/home/NewsFeedFragment.java" />
-      <change beforePath="$PROJECT_DIR$/../DaleelElKheir-master/app/src/main/java/yackeen/com/daleel/home/OnHomeFragmentStop.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../DaleelElKheir-master/app/src/main/java/yackeen/com/daleel/login/LoginActivity.java" afterPath="$PROJECT_DIR$/../DaleelElKheir-master/app/src/main/java/yackeen/com/daleel/login/LoginActivity.java" />
-      <change beforePath="$PROJECT_DIR$/../DaleelElKheir-master/app/src/main/java/yackeen/com/daleel/manager/PrefManager.java" afterPath="$PROJECT_DIR$/../DaleelElKheir-master/app/src/main/java/yackeen/com/daleel/manager/PrefManager.java" />
-      <change beforePath="$PROJECT_DIR$/../DaleelElKheir-master/app/src/main/java/yackeen/com/daleel/organization/AdapterViewpager.java" afterPath="$PROJECT_DIR$/../DaleelElKheir-master/app/src/main/java/yackeen/com/daleel/organization/AdapterViewpager.java" />
-      <change beforePath="$PROJECT_DIR$/../DaleelElKheir-master/app/src/main/java/yackeen/com/daleel/organization/OnOrganizationsFragmentStop.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../DaleelElKheir-master/app/src/main/java/yackeen/com/daleel/organization/OrganizationsAdapter.java" afterPath="$PROJECT_DIR$/../DaleelElKheir-master/app/src/main/java/yackeen/com/daleel/organization/OrganizationsAdapter.java" />
-      <change beforePath="$PROJECT_DIR$/../DaleelElKheir-master/app/src/main/java/yackeen/com/daleel/organization/OrganizationsFragment.java" afterPath="$PROJECT_DIR$/../DaleelElKheir-master/app/src/main/java/yackeen/com/daleel/organization/OrganizationsFragment.java" />
-      <change beforePath="$PROJECT_DIR$/../DaleelElKheir-master/app/src/main/java/yackeen/com/daleel/register/RegisterActivity.java" afterPath="$PROJECT_DIR$/../DaleelElKheir-master/app/src/main/java/yackeen/com/daleel/register/RegisterActivity.java" />
-      <change beforePath="$PROJECT_DIR$/../DaleelElKheir-master/app/src/main/java/yackeen/com/daleel/settings/SettingsActivity.java" afterPath="$PROJECT_DIR$/../DaleelElKheir-master/app/src/main/java/yackeen/com/daleel/settings/SettingsActivity.java" />
-      <change beforePath="$PROJECT_DIR$/../DaleelElKheir-master/app/src/main/java/yackeen/com/daleel/splash/SplashActivity.java" afterPath="$PROJECT_DIR$/../DaleelElKheir-master/app/src/main/java/yackeen/com/daleel/splash/SplashActivity.java" />
-      <change beforePath="$PROJECT_DIR$/../DaleelElKheir-master/app/src/main/java/yackeen/com/daleel/user/EditFragment.java" afterPath="$PROJECT_DIR$/../DaleelElKheir-master/app/src/main/java/yackeen/com/daleel/user/EditFragment.java" />
-      <change beforePath="$PROJECT_DIR$/../DaleelElKheir-master/app/src/main/java/yackeen/com/daleel/user/ProfileActivity.java" afterPath="$PROJECT_DIR$/../DaleelElKheir-master/app/src/main/java/yackeen/com/daleel/user/ProfileActivity.java" />
-      <change beforePath="$PROJECT_DIR$/../DaleelElKheir-master/app/src/main/java/yackeen/com/daleel/user/User.java" afterPath="$PROJECT_DIR$/../DaleelElKheir-master/app/src/main/java/yackeen/com/daleel/user/User.java" />
-      <change beforePath="$PROJECT_DIR$/../DaleelElKheir-master/app/src/main/java/yackeen/com/daleel/user/adapters/FavouriteCategoriesAdapter.java" afterPath="$PROJECT_DIR$/../DaleelElKheir-master/app/src/main/java/yackeen/com/daleel/user/adapters/FavouriteCategoriesAdapter.java" />
-      <change beforePath="$PROJECT_DIR$/../DaleelElKheir-master/app/src/main/java/yackeen/com/daleel/user/adapters/FollowedCasesAdapter.java" afterPath="$PROJECT_DIR$/../DaleelElKheir-master/app/src/main/java/yackeen/com/daleel/user/adapters/FollowedCasesAdapter.java" />
-      <change beforePath="$PROJECT_DIR$/../DaleelElKheir-master/app/src/main/java/yackeen/com/daleel/user/adapters/FollowedOrganizationAdapter.java" afterPath="$PROJECT_DIR$/../DaleelElKheir-master/app/src/main/java/yackeen/com/daleel/user/adapters/FollowedOrganizationAdapter.java" />
-      <change beforePath="$PROJECT_DIR$/../DaleelElKheir-master/app/src/main/java/yackeen/com/daleel/user/fragments/FavouriteCategories.java" afterPath="$PROJECT_DIR$/../DaleelElKheir-master/app/src/main/java/yackeen/com/daleel/user/fragments/FavouriteCategories.java" />
-      <change beforePath="$PROJECT_DIR$/../DaleelElKheir-master/app/src/main/java/yackeen/com/daleel/user/fragments/FollowedCases.java" afterPath="$PROJECT_DIR$/../DaleelElKheir-master/app/src/main/java/yackeen/com/daleel/user/fragments/FollowedCases.java" />
-      <change beforePath="$PROJECT_DIR$/../DaleelElKheir-master/app/src/main/java/yackeen/com/daleel/user/fragments/FollowedOrganizations.java" afterPath="$PROJECT_DIR$/../DaleelElKheir-master/app/src/main/java/yackeen/com/daleel/user/fragments/FollowedOrganizations.java" />
-      <change beforePath="$PROJECT_DIR$/../DaleelElKheir-master/app/src/main/java/yackeen/com/daleel/user/models/FavouriteCategoriesModel.java" afterPath="$PROJECT_DIR$/../DaleelElKheir-master/app/src/main/java/yackeen/com/daleel/user/models/FavouriteCategoriesModel.java" />
-      <change beforePath="$PROJECT_DIR$/../DaleelElKheir-master/app/src/main/java/yackeen/com/daleel/user/models/FollowedCasesModel.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../DaleelElKheir-master/app/src/main/java/yackeen/com/daleel/user/models/FollowedOrganizationModel.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../DaleelElKheir-master/app/src/main/res/drawable-hdpi/chat_active.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../DaleelElKheir-master/app/src/main/res/drawable-hdpi/events_active.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../DaleelElKheir-master/app/src/main/res/drawable-hdpi/home_active.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../DaleelElKheir-master/app/src/main/res/drawable-hdpi/nun_active.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../DaleelElKheir-master/app/src/main/res/drawable-mdpi/chat_active.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../DaleelElKheir-master/app/src/main/res/drawable-mdpi/events_active.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../DaleelElKheir-master/app/src/main/res/drawable-mdpi/home_active.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../DaleelElKheir-master/app/src/main/res/drawable-mdpi/nun_active.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../DaleelElKheir-master/app/src/main/res/drawable-xhdpi/chat_active.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../DaleelElKheir-master/app/src/main/res/drawable-xhdpi/events_active.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../DaleelElKheir-master/app/src/main/res/drawable-xhdpi/home_active.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../DaleelElKheir-master/app/src/main/res/drawable-xhdpi/nun_active.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../DaleelElKheir-master/app/src/main/res/drawable-xxhdpi/chat_active.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../DaleelElKheir-master/app/src/main/res/drawable-xxhdpi/events_active.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../DaleelElKheir-master/app/src/main/res/drawable-xxhdpi/home_active.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../DaleelElKheir-master/app/src/main/res/drawable-xxhdpi/nun_active.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../DaleelElKheir-master/app/src/main/res/layout-ar/fragment_detail.xml" afterPath="$PROJECT_DIR$/../DaleelElKheir-master/app/src/main/res/layout-ar/fragment_detail.xml" />
-      <change beforePath="$PROJECT_DIR$/../DaleelElKheir-master/app/src/main/res/layout/activity_all_cases.xml" afterPath="$PROJECT_DIR$/../DaleelElKheir-master/app/src/main/res/layout/activity_all_cases.xml" />
-      <change beforePath="$PROJECT_DIR$/../DaleelElKheir-master/app/src/main/res/layout/activity_blood_banks.xml" afterPath="$PROJECT_DIR$/../DaleelElKheir-master/app/src/main/res/layout/activity_blood_banks.xml" />
-      <change beforePath="$PROJECT_DIR$/../DaleelElKheir-master/app/src/main/res/layout/activity_conact.xml" afterPath="$PROJECT_DIR$/../DaleelElKheir-master/app/src/main/res/layout/activity_conact.xml" />
-      <change beforePath="$PROJECT_DIR$/../DaleelElKheir-master/app/src/main/res/layout/activity_login.xml" afterPath="$PROJECT_DIR$/../DaleelElKheir-master/app/src/main/res/layout/activity_login.xml" />
-      <change beforePath="$PROJECT_DIR$/../DaleelElKheir-master/app/src/main/res/layout/activity_profile.xml" afterPath="$PROJECT_DIR$/../DaleelElKheir-master/app/src/main/res/layout/activity_profile.xml" />
-      <change beforePath="$PROJECT_DIR$/../DaleelElKheir-master/app/src/main/res/layout/activity_register.xml" afterPath="$PROJECT_DIR$/../DaleelElKheir-master/app/src/main/res/layout/activity_register.xml" />
-      <change beforePath="$PROJECT_DIR$/../DaleelElKheir-master/app/src/main/res/layout/activity_settings.xml" afterPath="$PROJECT_DIR$/../DaleelElKheir-master/app/src/main/res/layout/activity_settings.xml" />
-      <change beforePath="$PROJECT_DIR$/../DaleelElKheir-master/app/src/main/res/layout/contacts_item.xml" afterPath="$PROJECT_DIR$/../DaleelElKheir-master/app/src/main/res/layout/contacts_item.xml" />
-      <change beforePath="$PROJECT_DIR$/../DaleelElKheir-master/app/src/main/res/layout/event_item.xml" afterPath="$PROJECT_DIR$/../DaleelElKheir-master/app/src/main/res/layout/event_item.xml" />
-      <change beforePath="$PROJECT_DIR$/../DaleelElKheir-master/app/src/main/res/layout/favourite_cat_item.xml" afterPath="$PROJECT_DIR$/../DaleelElKheir-master/app/src/main/res/layout/favourite_cat_item.xml" />
-      <change beforePath="$PROJECT_DIR$/../DaleelElKheir-master/app/src/main/res/layout/followed_cases_item.xml" afterPath="$PROJECT_DIR$/../DaleelElKheir-master/app/src/main/res/layout/followed_cases_item.xml" />
-      <change beforePath="$PROJECT_DIR$/../DaleelElKheir-master/app/src/main/res/layout/fragment_all_cases.xml" afterPath="$PROJECT_DIR$/../DaleelElKheir-master/app/src/main/res/layout/fragment_all_cases.xml" />
-      <change beforePath="$PROJECT_DIR$/../DaleelElKheir-master/app/src/main/res/layout/fragment_boold_bank_detail.xml" afterPath="$PROJECT_DIR$/../DaleelElKheir-master/app/src/main/res/layout/fragment_boold_bank_detail.xml" />
-      <change beforePath="$PROJECT_DIR$/../DaleelElKheir-master/app/src/main/res/layout/fragment_detail.xml" afterPath="$PROJECT_DIR$/../DaleelElKheir-master/app/src/main/res/layout/fragment_detail.xml" />
-      <change beforePath="$PROJECT_DIR$/../DaleelElKheir-master/app/src/main/res/layout/fragment_edit.xml" afterPath="$PROJECT_DIR$/../DaleelElKheir-master/app/src/main/res/layout/fragment_edit.xml" />
-      <change beforePath="$PROJECT_DIR$/../DaleelElKheir-master/app/src/main/res/layout/fragment_event_detail.xml" afterPath="$PROJECT_DIR$/../DaleelElKheir-master/app/src/main/res/layout/fragment_event_detail.xml" />
-      <change beforePath="$PROJECT_DIR$/../DaleelElKheir-master/app/src/main/res/layout/fragment_events.xml" afterPath="$PROJECT_DIR$/../DaleelElKheir-master/app/src/main/res/layout/fragment_events.xml" />
-      <change beforePath="$PROJECT_DIR$/../DaleelElKheir-master/app/src/main/res/layout/fragment_favourite_categories.xml" afterPath="$PROJECT_DIR$/../DaleelElKheir-master/app/src/main/res/layout/fragment_favourite_categories.xml" />
-      <change beforePath="$PROJECT_DIR$/../DaleelElKheir-master/app/src/main/res/layout/fragment_followed_cases.xml" afterPath="$PROJECT_DIR$/../DaleelElKheir-master/app/src/main/res/layout/fragment_followed_cases.xml" />
-      <change beforePath="$PROJECT_DIR$/../DaleelElKheir-master/app/src/main/res/layout/fragment_followed_organizations.xml" afterPath="$PROJECT_DIR$/../DaleelElKheir-master/app/src/main/res/layout/fragment_followed_organizations.xml" />
-      <change beforePath="$PROJECT_DIR$/../DaleelElKheir-master/app/src/main/res/layout/fragment_home.xml" afterPath="$PROJECT_DIR$/../DaleelElKheir-master/app/src/main/res/layout/fragment_home.xml" />
-      <change beforePath="$PROJECT_DIR$/../DaleelElKheir-master/app/src/main/res/layout/fragment_organizations.xml" afterPath="$PROJECT_DIR$/../DaleelElKheir-master/app/src/main/res/layout/fragment_organizations.xml" />
-      <change beforePath="$PROJECT_DIR$/../DaleelElKheir-master/app/src/main/res/layout/item_about.xml" afterPath="$PROJECT_DIR$/../DaleelElKheir-master/app/src/main/res/layout/item_about.xml" />
-      <change beforePath="$PROJECT_DIR$/../DaleelElKheir-master/app/src/main/res/layout/item_blood_bank.xml" afterPath="$PROJECT_DIR$/../DaleelElKheir-master/app/src/main/res/layout/item_blood_bank.xml" />
-      <change beforePath="$PROJECT_DIR$/../DaleelElKheir-master/app/src/main/res/layout/item_case.xml" afterPath="$PROJECT_DIR$/../DaleelElKheir-master/app/src/main/res/layout/item_case.xml" />
-      <change beforePath="$PROJECT_DIR$/../DaleelElKheir-master/app/src/main/res/layout/item_newsfeed.xml" afterPath="$PROJECT_DIR$/../DaleelElKheir-master/app/src/main/res/layout/item_newsfeed.xml" />
-      <change beforePath="$PROJECT_DIR$/../DaleelElKheir-master/app/src/main/res/layout/item_newsfeed_pager.xml" afterPath="$PROJECT_DIR$/../DaleelElKheir-master/app/src/main/res/layout/item_newsfeed_pager.xml" />
-      <change beforePath="$PROJECT_DIR$/../DaleelElKheir-master/app/src/main/res/layout/item_organization.xml" afterPath="$PROJECT_DIR$/../DaleelElKheir-master/app/src/main/res/layout/item_organization.xml" />
-      <change beforePath="$PROJECT_DIR$/../DaleelElKheir-master/app/src/main/res/layout/item_orgs_pager.xml" afterPath="$PROJECT_DIR$/../DaleelElKheir-master/app/src/main/res/layout/item_orgs_pager.xml" />
-      <change beforePath="$PROJECT_DIR$/../DaleelElKheir-master/app/src/main/res/layout/nav_filter_main.xml" afterPath="$PROJECT_DIR$/../DaleelElKheir-master/app/src/main/res/layout/nav_filter_main.xml" />
-      <change beforePath="$PROJECT_DIR$/../DaleelElKheir-master/app/src/main/res/layout/nav_header_main.xml" afterPath="$PROJECT_DIR$/../DaleelElKheir-master/app/src/main/res/layout/nav_header_main.xml" />
-      <change beforePath="$PROJECT_DIR$/../DaleelElKheir-master/app/src/main/res/menu/main.xml" afterPath="$PROJECT_DIR$/../DaleelElKheir-master/app/src/main/res/menu/main.xml" />
-      <change beforePath="$PROJECT_DIR$/../DaleelElKheir-master/app/src/main/res/values-ar/strings.xml" afterPath="$PROJECT_DIR$/../DaleelElKheir-master/app/src/main/res/values-ar/strings.xml" />
-      <change beforePath="$PROJECT_DIR$/../DaleelElKheir-master/app/src/main/res/values/colors.xml" afterPath="$PROJECT_DIR$/../DaleelElKheir-master/app/src/main/res/values/colors.xml" />
-      <change beforePath="$PROJECT_DIR$/../DaleelElKheir-master/app/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/../DaleelElKheir-master/app/src/main/res/values/strings.xml" />
-      <change beforePath="$PROJECT_DIR$/../DaleelElKheir-master/app/src/main/res/values/styles.xml" afterPath="$PROJECT_DIR$/../DaleelElKheir-master/app/src/main/res/values/styles.xml" />
-      <change beforePath="$PROJECT_DIR$/../DaleelElKheir-master/build.gradle" afterPath="$PROJECT_DIR$/../DaleelElKheir-master/build.gradle" />
-      <change beforePath="$PROJECT_DIR$/../DaleelElKheir-master/settings.gradle" afterPath="$PROJECT_DIR$/../DaleelElKheir-master/settings.gradle" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter24_developingEfficientAlgorithm/CompareCommonGrowthFunctions.java" afterPath="$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter24_developingEfficientAlgorithm/CompareCommonGrowthFunctions.java" />
+      <change beforePath="$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter24_developingEfficientAlgorithm/GCDEuclid.java" afterPath="$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter24_developingEfficientAlgorithm/GCDEuclid.java" />
+      <change beforePath="$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter24_developingEfficientAlgorithm/ImprovedFibonacci.java" afterPath="$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter24_developingEfficientAlgorithm/ImprovedFibonacci.java" />
+      <change beforePath="$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter24_developingEfficientAlgorithm/ImprovedGCD.java" afterPath="$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter24_developingEfficientAlgorithm/ImprovedGCD.java" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -138,26 +17,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="BallControl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter22_lists_stacks_queues/bouncingballs/BallControl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CountOccurrencesNumber23_6.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter23_setAndMaps/CountOccurrencesNumber23_6.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="29" lean-forward="false" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="SetListPerformanceTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter23_setAndMaps/SetListPerformanceTest.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -171,18 +30,58 @@
       <file leaf-file-name="SetOperationHashSet23_1.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter23_setAndMaps/SetOperationHashSet23_1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="22" column="28" lean-forward="true" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
+            <state relative-caret-position="357">
+              <caret line="22" column="28" lean-forward="false" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CommonRecurrenceRelations.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CommonRecurrenceRelations.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter24_developingEfficientAlgorithm/CommonRecurrenceRelations.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="38" lean-forward="false" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
+            <state relative-caret-position="272">
+              <caret line="16" column="47" lean-forward="false" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CompareCommonGrowthFunctions.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter24_developingEfficientAlgorithm/CompareCommonGrowthFunctions.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ImprovedFibonacci.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter24_developingEfficientAlgorithm/ImprovedFibonacci.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" column="22" lean-forward="false" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ImprovedGCD.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter24_developingEfficientAlgorithm/ImprovedGCD.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="42" lean-forward="false" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GCDEuclid.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter24_developingEfficientAlgorithm/GCDEuclid.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="23" column="21" lean-forward="true" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -224,26 +123,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BallPanel.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter22_lists_stacks_queues/bouncingballs/BallPanel.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="10" column="20" lean-forward="false" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MultipleBallApp.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter22_lists_stacks_queues/bouncingballs/MultipleBallApp.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="7" column="22" lean-forward="false" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -265,11 +144,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter22_lists-stacks-queues/PerformOperationsOnPriorityQueues22_10.java" />
-        <option value="$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter23_setAndMaps/CountOccurrencesNumber23_6.java" />
-        <option value="$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter18_appletsAndMultimedia/TicTacToe.java" />
-        <option value="$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter22_lists-stacks-queues/bouncingballs/Ball.java" />
-        <option value="$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter22_lists_stacks_queues/bouncingballs/Ball.java" />
         <option value="$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter18_appletsAndMultimedia/TemperatureHistogram.java" />
         <option value="$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter18_appletsAndMultimedia/StockTickerSimulation.java" />
         <option value="$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter18_appletsAndMultimedia/RacingCars.java" />
@@ -316,6 +190,11 @@
         <option value="$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter23_setAndMaps/SetListPerformanceTest.java" />
         <option value="$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter23_setAndMaps/SetOperationHashSet23_1.java" />
         <option value="$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter16_event_driven_programming/RacingCar.java" />
+        <option value="$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter24_developingEfficientAlgorithm/CommonRecurrenceRelations.java" />
+        <option value="$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter24_developingEfficientAlgorithm/CompareCommonGrowthFunctions.java" />
+        <option value="$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter24_developingEfficientAlgorithm/ImprovedFibonacci.java" />
+        <option value="$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter24_developingEfficientAlgorithm/ImprovedGCD.java" />
+        <option value="$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter24_developingEfficientAlgorithm/GCDEuclid.java" />
       </list>
     </option>
   </component>
@@ -347,8 +226,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
       <pane id="PackagesPane">
         <subPane>
           <expand>
@@ -361,11 +238,17 @@
               <item name="Introduction-To-Java-Programming" type="616d4139:PackageViewModuleNode" />
               <item name="IntroductionToJavaProgramming" type="1f31426a:PackageElementNode" />
             </path>
+            <path>
+              <item name="Introduction-To-Java-Programming" type="58d84e3e:PackageViewProjectNode" />
+              <item name="Introduction-To-Java-Programming" type="616d4139:PackageViewModuleNode" />
+              <item name="IntroductionToJavaProgramming" type="1f31426a:PackageElementNode" />
+              <item name="chapter24_developingEfficientAlgorithm" type="1f31426a:PackageElementNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -377,6 +260,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -641,7 +526,15 @@
       <workItem from="1522226936481" duration="601000" />
       <workItem from="1522507508964" duration="3333000" />
       <workItem from="1522601987485" duration="589000" />
-      <workItem from="1523014850918" duration="678000" />
+      <workItem from="1523014850918" duration="2809000" />
+      <workItem from="1523120381310" duration="4445000" />
+      <workItem from="1523216534463" duration="177000" />
+      <workItem from="1523293870456" duration="1753000" />
+      <workItem from="1523389781241" duration="1237000" />
+      <workItem from="1523624893426" duration="73000" />
+      <workItem from="1523727080056" duration="1717000" />
+      <workItem from="1525176644031" duration="136000" />
+      <workItem from="1525204323162" duration="1486000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1517893839399</created>
@@ -689,10 +582,11 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="83497000" />
+    <option name="totallyTimeSpent" value="96652000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -706,7 +600,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.351227" sideWeight="0.4969743" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2065053" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23146747" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -740,34 +634,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter18_appletsAndMultimedia/TicTacToe.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="9" column="21" lean-forward="false" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter18_appletsAndMultimedia/TemperatureHistogram.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="10" column="22" lean-forward="false" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter18_appletsAndMultimedia/StockTickerSimulation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="9" column="33" lean-forward="true" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter19_binaryIO/AddressBook.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="11" column="20" lean-forward="false" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter19_binaryIO/BinaryDataFile.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -1024,9 +890,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1034,7 +897,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="10" column="20" lean-forward="false" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1042,7 +904,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="7" column="22" lean-forward="false" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1050,7 +911,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1058,7 +918,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="29" lean-forward="false" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1102,16 +961,48 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter23_setAndMaps/SetOperationHashSet23_1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="22" column="28" lean-forward="true" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
+        <state relative-caret-position="357">
+          <caret line="22" column="28" lean-forward="false" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter24_developingEfficientAlgorithm/CommonRecurrenceRelations.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="38" lean-forward="false" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
+        <state relative-caret-position="272">
+          <caret line="16" column="47" lean-forward="false" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter24_developingEfficientAlgorithm/CompareCommonGrowthFunctions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter24_developingEfficientAlgorithm/ImprovedFibonacci.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="22" lean-forward="false" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter24_developingEfficientAlgorithm/ImprovedGCD.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="42" lean-forward="false" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter24_developingEfficientAlgorithm/GCDEuclid.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="21" lean-forward="true" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
           <folding />
         </state>
       </provider>
