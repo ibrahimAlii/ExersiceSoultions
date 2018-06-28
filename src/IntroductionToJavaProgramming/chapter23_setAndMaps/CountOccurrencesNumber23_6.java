@@ -1,4 +1,4 @@
-package IntroductionToJavaProgramming.chapter23_setAndMaps;
+package chapter23;
 
 import java.util.*;
 

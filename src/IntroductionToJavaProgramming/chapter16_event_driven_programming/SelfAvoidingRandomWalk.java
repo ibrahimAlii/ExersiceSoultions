@@ -1,5 +1,6 @@
-import com.sun.javafx.geom.Point2D;
-import com.sun.javafx.geom.Rectangle;
+package IntroductionToJavaProgramming.chapter16_event_driven_programming;
+
+
 import javafx.scene.shape.Line;
 
 import javax.swing.*;
