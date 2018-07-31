@@ -7,6 +7,7 @@ import java.awt.*;
 import java.sql.Array;
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.TimeZone;
 
 /**
  * Created by Ibrahim on 10/08/2017.
@@ -67,7 +68,8 @@ import java.util.Arrays;
 //        main.setVisible(true);
 //        main.setDefaultCloseOperation(EXIT_ON_CLOSE);
 
-        System.out.println(determine(100, 555));
+
+
     }
 
 

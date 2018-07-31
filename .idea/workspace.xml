@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2a48d9be-4006-42d4-8acc-ecae1c498a0c" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter24_developingEfficientAlgorithm/MaxiMumConsecutiveIncreasinglyOrdered.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter16_event_driven_programming/HitBalloonsGame.java" afterPath="$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter16_event_driven_programming/HitBalloonsGame.java" />
-      <change beforePath="$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter16_event_driven_programming/SelfAvoidingRandomWalk.java" afterPath="$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter16_event_driven_programming/SelfAvoidingRandomWalk.java" />
-      <change beforePath="$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter23_setAndMaps/CountOccurrencesNumber23_6.java" afterPath="$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter23_setAndMaps/CountOccurrencesNumber23_6.java" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" afterPath="$PROJECT_DIR$/src/Main.java" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,11 +25,33 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="492">
-              <caret line="69" column="45" lean-forward="false" selection-start-line="69" selection-start-column="45" selection-end-line="69" selection-end-column="45" />
+            <state relative-caret-position="406">
+              <caret line="71" column="0" lean-forward="false" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MaxiMumConsecutiveIncreasinglyOrdered.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter24_developingEfficientAlgorithm/MaxiMumConsecutiveIncreasinglyOrdered.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="8" lean-forward="false" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TimeZone.java" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk-9.0.1/lib/src.zip!/java.base/java/util/TimeZone.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1513">
+              <caret line="133" column="22" lean-forward="false" selection-start-line="133" selection-start-column="22" selection-end-line="133" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -42,8 +60,8 @@
       <file leaf-file-name="SelfAvoidingRandomWalk.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter16_event_driven_programming/SelfAvoidingRandomWalk.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1174">
-              <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+            <state relative-caret-position="34">
+              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -54,7 +72,7 @@
       <file leaf-file-name="PaneCollection.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter13_graphics/PaneCollection.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="191">
+            <state relative-caret-position="884">
               <caret line="65" column="40" lean-forward="false" selection-start-line="65" selection-start-column="40" selection-end-line="65" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -76,7 +94,7 @@
       <file leaf-file-name="TBeanMachinePane.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter13_graphics/beanmachine/TBeanMachinePane.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="191">
+            <state relative-caret-position="3179">
               <caret line="203" column="29" lean-forward="false" selection-start-line="203" selection-start-column="29" selection-end-line="203" selection-end-column="29" />
               <folding />
             </state>
@@ -104,7 +122,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter19_binaryIO/AddressBook.java" />
         <option value="$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter19_binaryIO/BinaryDataFile.java" />
         <option value="$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter19_binaryIO/BinaryEditor.java" />
         <option value="$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter19_binaryIO/BitsLength.java" />
@@ -155,6 +172,7 @@
         <option value="$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter16_event_driven_programming/HitBalloonsGame.java" />
         <option value="$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter16_event_driven_programming/SelfAvoidingRandomWalk.java" />
         <option value="$PROJECT_DIR$/src/Main.java" />
+        <option value="$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter24_developingEfficientAlgorithm/MaxiMumConsecutiveIncreasinglyOrdered.java" />
       </list>
     </option>
   </component>
@@ -187,29 +205,7 @@
     </navigator>
     <panes>
       <pane id="AndroidView" />
-      <pane id="Scope" />
-      <pane id="PackagesPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Introduction-To-Java-Programming" type="58d84e3e:PackageViewProjectNode" />
-              <item name="Introduction-To-Java-Programming" type="616d4139:PackageViewModuleNode" />
-            </path>
-            <path>
-              <item name="Introduction-To-Java-Programming" type="58d84e3e:PackageViewProjectNode" />
-              <item name="Introduction-To-Java-Programming" type="616d4139:PackageViewModuleNode" />
-              <item name="IntroductionToJavaProgramming" type="1f31426a:PackageElementNode" />
-            </path>
-            <path>
-              <item name="Introduction-To-Java-Programming" type="58d84e3e:PackageViewProjectNode" />
-              <item name="Introduction-To-Java-Programming" type="616d4139:PackageViewModuleNode" />
-              <item name="IntroductionToJavaProgramming" type="1f31426a:PackageElementNode" />
-              <item name="chapter24_developingEfficientAlgorithm" type="1f31426a:PackageElementNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -239,7 +235,29 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Introduction-To-Java-Programming" type="58d84e3e:PackageViewProjectNode" />
+              <item name="Introduction-To-Java-Programming" type="616d4139:PackageViewModuleNode" />
+            </path>
+            <path>
+              <item name="Introduction-To-Java-Programming" type="58d84e3e:PackageViewProjectNode" />
+              <item name="Introduction-To-Java-Programming" type="616d4139:PackageViewModuleNode" />
+              <item name="IntroductionToJavaProgramming" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="Introduction-To-Java-Programming" type="58d84e3e:PackageViewProjectNode" />
+              <item name="Introduction-To-Java-Programming" type="616d4139:PackageViewModuleNode" />
+              <item name="IntroductionToJavaProgramming" type="1f31426a:PackageElementNode" />
+              <item name="chapter24_developingEfficientAlgorithm" type="1f31426a:PackageElementNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -263,187 +281,6 @@
       <recent name="C:\Users\sun_m\Desktop\Introduction-To-Java-Programming\src\IntroductionToJavaProgramming\chapter20_recursion" />
       <recent name="C:\Users\sun_m\Desktop\Introduction-To-Java-Programming\src\IntroductionToJavaProgramming\chapter19_binaryIO" />
     </key>
-  </component>
-  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
-    <UpdatedFiles>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Updated from server" />
-        <option name="myStatusName" value="Changed on server" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="CHANGED_ON_SERVER" />
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Updated" />
-          <option name="myStatusName" value="Changed" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="UPDATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/Introduction-To-Java-Programming.iml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/misc.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/vcs.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/workspace.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter16_event_driven_programming/ClockAnimation.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter16_event_driven_programming/RacingCar.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter18_appletsAndMultimedia/RacingCars.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter18_appletsAndMultimedia/StockTickerSimulation.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter18_appletsAndMultimedia/TemperatureHistogram.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter18_appletsAndMultimedia/TicTacToe.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter19_binaryIO/AddressBook.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter19_binaryIO/BinaryDataFile.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter19_binaryIO/BinaryEditor.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter19_binaryIO/BitsLength.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter19_binaryIO/ConvertTextToUTF.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter19_binaryIO/MultipleIntegersInBinaryDataFile.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter19_binaryIO/SplitFiles.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter19_binaryIO/StoreObjectsAndArraysInFile.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter20_recursion/BigIntegerFactorial.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter20_recursion/DirectorySize.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter20_recursion/DisplayCircles.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter20_recursion/Fibonacci.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter20_recursion/HTree.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter20_recursion/HilbertCurve.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter20_recursion/KnightsTour.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter20_recursion/KochSnowFlakeFractal.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter20_recursion/MazeGame.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter20_recursion/Palindrome.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter20_recursion/RecursiveSelectionSort.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter20_recursion/SierpinskiTriangle.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter20_recursion/TowersOfHanoi.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter21_generics/GenericBubbleSort.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter21_generics/GenericMatrix.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter21_generics/GenericMinValue.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter21_generics/GenericSort.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter21_generics/GenericStack.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter21_generics/IntegerMatrix.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter21_generics/TestIntegerMatrix.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter23_setAndMaps/CountOccurrencesNumber23_6.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter23_setAndMaps/SetListPerformanceTest.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter23_setAndMaps/SetOperationHashSet23_1.java</PATH>
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Created" />
-          <option name="myStatusName" value="Created" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="CREATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter22_lists_stacks_queues/DirectorySize22_18.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter22_lists_stacks_queues/DirectorySize22_21.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter22_lists_stacks_queues/DisplayWords22_21.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter22_lists_stacks_queues/HanoiTower.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter22_lists_stacks_queues/IteratorVSget22_6.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter22_lists_stacks_queues/PerformOperationsOnPriorityQueues22_10.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter22_lists_stacks_queues/SortPoints22_4.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter22_lists_stacks_queues/StoreNumbers22_2.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter22_lists_stacks_queues/Test.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter22_lists_stacks_queues/bouncingballs/Ball.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter22_lists_stacks_queues/bouncingballs/BallControl.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter22_lists_stacks_queues/bouncingballs/BallPanel.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter22_lists_stacks_queues/bouncingballs/MultipleBallApp.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter24_developingEfficientAlgorithm/CommonRecurrenceRelations.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter24_developingEfficientAlgorithm/CompareCommonGrowthFunctions.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter24_developingEfficientAlgorithm/GCDEuclid.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter24_developingEfficientAlgorithm/ImprovedFibonacci.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter24_developingEfficientAlgorithm/ImprovedGCD.java</PATH>
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Deleted" />
-          <option name="myStatusName" value="Deleted" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="true" />
-          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter22_lists-stacks-queues/DirectorySize22_18.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter22_lists-stacks-queues/DirectorySize22_21.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter22_lists-stacks-queues/DisplayWords22_21.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter22_lists-stacks-queues/HanoiTower.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter22_lists-stacks-queues/IteratorVSget22_6.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter22_lists-stacks-queues/PerformOperationsOnPriorityQueues22_10.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter22_lists-stacks-queues/SortPoints22_4.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter22_lists-stacks-queues/StoreNumbers22_2.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter22_lists-stacks-queues/Test.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter22_lists-stacks-queues/bouncingballs/Ball.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter22_lists-stacks-queues/bouncingballs/BallControl.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter22_lists-stacks-queues/bouncingballs/BallPanel.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter22_lists-stacks-queues/bouncingballs/MultipleBallApp.java</PATH>
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Restored" />
-          <option name="myStatusName" value="Will be restored" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="RESTORED" />
-        </FILE-GROUP>
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Modified" />
-        <option name="myStatusName" value="Modified" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MODIFIED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Skipped" />
-        <option name="myStatusName" value="Skipped" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="SKIPPED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with conflicts" />
-        <option name="myStatusName" value="Will be merged with conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_CONFLICTS" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with tree conflicts" />
-        <option name="myStatusName" value="Merged with tree conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with property conflicts" />
-        <option name="myStatusName" value="Will be merged with property conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged" />
-        <option name="myStatusName" value="Will be merged" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Not in repository" />
-        <option name="myStatusName" value="Not in repository" />
-        <option name="mySupportsDeletion" value="true" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="UNKNOWN" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Locally added" />
-        <option name="myStatusName" value="Locally added" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="LOCALLY_ADDED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Locally removed" />
-        <option name="myStatusName" value="Locally removed" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="LOCALLY_REMOVED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Switched" />
-        <option name="myStatusName" value="Switched" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="SWITCHED" />
-      </FILE-GROUP>
-    </UpdatedFiles>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -694,6 +531,10 @@
       <workItem from="1523727080056" duration="1717000" />
       <workItem from="1525176644031" duration="136000" />
       <workItem from="1525204323162" duration="1486000" />
+      <workItem from="1530469584872" duration="58000" />
+      <workItem from="1531260123587" duration="1508000" />
+      <workItem from="1532379277258" duration="639000" />
+      <workItem from="1533058717444" duration="2042000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1517893839399</created>
@@ -737,29 +578,37 @@
       <option name="project" value="LOCAL" />
       <updated>1520157585930</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="commit">
+      <created>1530223934986</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1530223934986</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="97893000" />
+    <option name="totallyTimeSpent" value="102169000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1696" height="1066" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329849" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32976446" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297546" sideWeight="0.49092284" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329849" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.351227" sideWeight="0.5030257" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32868758" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32976446" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.254818" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32822084" sideWeight="0.4969743" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32869378" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.351227" sideWeight="0.4969743" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28361857" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15403423" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -768,32 +617,11 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.351227" sideWeight="0.5030257" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297546" sideWeight="0.49092284" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32822084" sideWeight="0.4969743" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297546" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.351227" sideWeight="0.4969743" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23146747" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297546" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -816,20 +644,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter20_recursion/Fibonacci.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="17" lean-forward="true" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter20_recursion/HTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="5" column="16" lean-forward="true" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter20_recursion/KnightsTour.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -1023,7 +837,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1031,7 +844,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1054,7 +866,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1102,7 +913,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1110,13 +920,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="10" column="20" lean-forward="false" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter13_graphics/beanmachine/TBeanMachinePane.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
+        <state relative-caret-position="3179">
           <caret line="203" column="29" lean-forward="false" selection-start-line="203" selection-start-column="29" selection-end-line="203" selection-end-column="29" />
           <folding />
         </state>
@@ -1126,7 +935,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1134,7 +942,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1142,13 +949,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="199">
           <caret line="45" column="17" lean-forward="false" selection-start-line="45" selection-start-column="17" selection-end-line="45" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter13_graphics/PaneCollection.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
+        <state relative-caret-position="884">
           <caret line="65" column="40" lean-forward="false" selection-start-line="65" selection-start-column="40" selection-end-line="65" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1168,7 +974,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="25" lean-forward="false" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1176,24 +981,41 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-9.0.1/lib/src.zip!/java.base/java/util/TimeZone.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1513">
+          <caret line="133" column="22" lean-forward="false" selection-start-line="133" selection-start-column="22" selection-end-line="133" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter16_event_driven_programming/SelfAvoidingRandomWalk.java">
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1174">
-          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        <state relative-caret-position="406">
+          <caret line="71" column="0" lean-forward="false" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter16_event_driven_programming/SelfAvoidingRandomWalk.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="492">
-          <caret line="69" column="45" lean-forward="false" selection-start-line="69" selection-start-column="45" selection-end-line="69" selection-end-column="45" />
+        <state relative-caret-position="34">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter24_developingEfficientAlgorithm/MaxiMumConsecutiveIncreasinglyOrdered.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="8" lean-forward="false" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
           <folding />
         </state>
       </provider>
