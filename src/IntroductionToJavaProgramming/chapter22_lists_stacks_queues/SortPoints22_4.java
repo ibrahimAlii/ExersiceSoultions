@@ -13,10 +13,14 @@ public class SortPoints22_4 {
             points[i] = new Point(Math.random() * 100, Math.random() * 100);
         }
 
+        for (int i = 0; i < points.length; i++) {
+            System.out.print( " " + points[i] + ", ");
+        }
+        System.out.println();
         Arrays.sort(points);
         for (Point p :
                 points) {
-            System.out.print(p + " ");
+            System.out.print("(" + p + " )");
         }
 
         System.out.println();
