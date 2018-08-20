@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2a48d9be-4006-42d4-8acc-ecae1c498a0c" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter24_developingEfficientAlgorithm/closest_pair_24_7/ClosestPairOfPoints.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter24_developingEfficientAlgorithm/closest_pair_24_7/ComparatorX.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter24_developingEfficientAlgorithm/PrimeNumbers_27_8.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter22_lists_stacks_queues/SortPoints22_4.java" afterPath="$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter22_lists_stacks_queues/SortPoints22_4.java" />
-      <change beforePath="$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter24_developingEfficientAlgorithm/closest_pair_24_7/Pair.java" afterPath="$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter24_developingEfficientAlgorithm/closest_pair_24_7/Pair.java" />
-      <change beforePath="$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter24_developingEfficientAlgorithm/closest_pair_24_7/Point.java" afterPath="$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter24_developingEfficientAlgorithm/closest_pair_24_7/Point.java" />
+      <change beforePath="$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter24_developingEfficientAlgorithm/closest_pair_24_7/ClosestPairOfPoints.java" afterPath="$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter24_developingEfficientAlgorithm/closest_pair_24_7/ClosestPairOfPoints.java" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -22,7 +19,7 @@
         <entry file="file://$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter24_developingEfficientAlgorithm/closest_pair_24_7/Point.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="289">
-              <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+              <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
               <folding>
                 <element signature="e#304#305#0" expanded="true" />
                 <element signature="e#328#329#0" expanded="true" />
@@ -35,11 +32,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ClosestPairOfPoints.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ClosestPairOfPoints.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter24_developingEfficientAlgorithm/closest_pair_24_7/ClosestPairOfPoints.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="612">
-              <caret line="36" column="73" lean-forward="false" selection-start-line="36" selection-start-column="73" selection-end-line="36" selection-end-column="73" />
+            <state relative-caret-position="628">
+              <caret line="40" column="41" lean-forward="false" selection-start-line="40" selection-start-column="41" selection-end-line="40" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -47,10 +44,20 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="PrimeNumbers_27_8.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter24_developingEfficientAlgorithm/PrimeNumbers_27_8.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="24" column="40" lean-forward="true" selection-start-line="24" selection-start-column="40" selection-end-line="24" selection-end-column="40" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="SortPoints22_4.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter22_lists_stacks_queues/SortPoints22_4.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
+            <state relative-caret-position="561">
               <caret line="34" column="17" lean-forward="false" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
               <folding />
             </state>
@@ -90,7 +97,7 @@
       <file leaf-file-name="StoreNumbers22_2.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter22_lists_stacks_queues/StoreNumbers22_2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-255">
+            <state relative-caret-position="68">
               <caret line="7" column="22" lean-forward="false" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
               <folding />
             </state>
@@ -118,7 +125,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter20_recursion/BigIntegerFactorial.java" />
         <option value="$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter20_recursion/DirectorySize.java" />
         <option value="$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter20_recursion/DisplayCircles.java" />
         <option value="$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter20_recursion/HilbertCurve.java" />
@@ -169,6 +175,7 @@
         <option value="$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter24_developingEfficientAlgorithm/closest_pair_24_7/ComparatorX.java" />
         <option value="$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter24_developingEfficientAlgorithm/closest_pair_24_7/Point.java" />
         <option value="$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter24_developingEfficientAlgorithm/closest_pair_24_7/ClosestPairOfPoints.java" />
+        <option value="$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter24_developingEfficientAlgorithm/PrimeNumbers_27_8.java" />
       </list>
     </option>
   </component>
@@ -200,31 +207,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Introduction-To-Java-Programming" type="58d84e3e:PackageViewProjectNode" />
-              <item name="Introduction-To-Java-Programming" type="616d4139:PackageViewModuleNode" />
-            </path>
-            <path>
-              <item name="Introduction-To-Java-Programming" type="58d84e3e:PackageViewProjectNode" />
-              <item name="Introduction-To-Java-Programming" type="616d4139:PackageViewModuleNode" />
-              <item name="IntroductionToJavaProgramming" type="1f31426a:PackageElementNode" />
-            </path>
-            <path>
-              <item name="Introduction-To-Java-Programming" type="58d84e3e:PackageViewProjectNode" />
-              <item name="Introduction-To-Java-Programming" type="616d4139:PackageViewModuleNode" />
-              <item name="IntroductionToJavaProgramming" type="1f31426a:PackageElementNode" />
-              <item name="chapter24_developingEfficientAlgorithm" type="1f31426a:PackageElementNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -248,30 +231,31 @@
               <item name="Introduction-To-Java-Programming" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="IntroductionToJavaProgramming" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter22_lists_stacks_queues" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Introduction-To-Java-Programming" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Introduction-To-Java-Programming" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="IntroductionToJavaProgramming" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter22_lists_stacks_queues" type="462c0819:PsiDirectoryNode" />
-              <item name="bouncingballs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Introduction-To-Java-Programming" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Introduction-To-Java-Programming" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="IntroductionToJavaProgramming" type="462c0819:PsiDirectoryNode" />
               <item name="chapter24_developingEfficientAlgorithm" type="462c0819:PsiDirectoryNode" />
             </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
             <path>
-              <item name="Introduction-To-Java-Programming" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Introduction-To-Java-Programming" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="IntroductionToJavaProgramming" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter24_developingEfficientAlgorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="closest_pair_24_7" type="462c0819:PsiDirectoryNode" />
+              <item name="Introduction-To-Java-Programming" type="58d84e3e:PackageViewProjectNode" />
+              <item name="Introduction-To-Java-Programming" type="616d4139:PackageViewModuleNode" />
+            </path>
+            <path>
+              <item name="Introduction-To-Java-Programming" type="58d84e3e:PackageViewProjectNode" />
+              <item name="Introduction-To-Java-Programming" type="616d4139:PackageViewModuleNode" />
+              <item name="IntroductionToJavaProgramming" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="Introduction-To-Java-Programming" type="58d84e3e:PackageViewProjectNode" />
+              <item name="Introduction-To-Java-Programming" type="616d4139:PackageViewModuleNode" />
+              <item name="IntroductionToJavaProgramming" type="1f31426a:PackageElementNode" />
+              <item name="chapter24_developingEfficientAlgorithm" type="1f31426a:PackageElementNode" />
             </path>
           </expand>
           <select />
@@ -313,7 +297,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SortPoints22_4">
+  <component name="RunManager" selected="Application.PrimeNumbers_27_8">
     <configuration default="true" type="Applet" factoryName="Applet">
       <module />
       <option name="HTML_USED" value="false" />
@@ -321,9 +305,14 @@
       <option name="HEIGHT" value="300" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="Main" />
+    <configuration name="ClosestPairOfPoints" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="IntroductionToJavaProgramming.chapter24_developingEfficientAlgorithm.closest_pair_24_7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="IntroductionToJavaProgramming.chapter24_developingEfficientAlgorithm.closest_pair_24_7.ClosestPairOfPoints" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -373,14 +362,14 @@
       <module name="Introduction-To-Java-Programming" />
       <envs />
     </configuration>
-    <configuration name="SetOperationHashSet23_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="PrimeNumbers_27_8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="IntroductionToJavaProgramming.chapter23_setAndMaps.*" />
+          <option name="PATTERN" value="IntroductionToJavaProgramming.chapter24_developingEfficientAlgorithm.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="IntroductionToJavaProgramming.chapter23_setAndMaps.SetOperationHashSet23_1" />
+      <option name="MAIN_CLASS_NAME" value="IntroductionToJavaProgramming.chapter24_developingEfficientAlgorithm.PrimeNumbers_27_8" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -486,19 +475,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.Main" />
-      <item index="1" class="java.lang.String" itemvalue="Application.SetOperationHashSet23_1" />
-      <item index="2" class="java.lang.String" itemvalue="Application.MaxiMumIncreasinglyOrderedSubsquence" />
-      <item index="3" class="java.lang.String" itemvalue="Application.PatternMatching24_3" />
-      <item index="4" class="java.lang.String" itemvalue="Application.SortPoints22_4" />
+      <item index="0" class="java.lang.String" itemvalue="Application.MaxiMumIncreasinglyOrderedSubsquence" />
+      <item index="1" class="java.lang.String" itemvalue="Application.PatternMatching24_3" />
+      <item index="2" class="java.lang.String" itemvalue="Application.SortPoints22_4" />
+      <item index="3" class="java.lang.String" itemvalue="Application.ClosestPairOfPoints" />
+      <item index="4" class="java.lang.String" itemvalue="Application.PrimeNumbers_27_8" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.SortPoints22_4" />
-        <item index="1" class="java.lang.String" itemvalue="Application.PatternMatching24_3" />
-        <item index="2" class="java.lang.String" itemvalue="Application.MaxiMumIncreasinglyOrderedSubsquence" />
-        <item index="3" class="java.lang.String" itemvalue="Application.Main" />
-        <item index="4" class="java.lang.String" itemvalue="Application.SetOperationHashSet23_1" />
+        <item index="0" class="java.lang.String" itemvalue="Application.PrimeNumbers_27_8" />
+        <item index="1" class="java.lang.String" itemvalue="Application.ClosestPairOfPoints" />
+        <item index="2" class="java.lang.String" itemvalue="Application.SortPoints22_4" />
+        <item index="3" class="java.lang.String" itemvalue="Application.PatternMatching24_3" />
+        <item index="4" class="java.lang.String" itemvalue="Application.MaxiMumIncreasinglyOrderedSubsquence" />
       </list>
     </recent_temporary>
   </component>
@@ -581,7 +570,12 @@
       <workItem from="1532379277258" duration="639000" />
       <workItem from="1533058717444" duration="5070000" />
       <workItem from="1533226460787" duration="6252000" />
-      <workItem from="1533837325996" duration="7945000" />
+      <workItem from="1533837325996" duration="10048000" />
+      <workItem from="1534079645304" duration="1270000" />
+      <workItem from="1534117175295" duration="1443000" />
+      <workItem from="1534417491728" duration="898000" />
+      <workItem from="1534548993817" duration="1791000" />
+      <workItem from="1534619019757" duration="3562000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1517893839399</created>
@@ -660,15 +654,21 @@
       <option name="project" value="LOCAL" />
       <updated>1533632460605</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Exercise 24.6">
+      <created>1533942586869</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1533942586869</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="119394000" />
+    <option name="totallyTimeSpent" value="130461000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1696" height="1066" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -679,11 +679,11 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.351227" sideWeight="0.5030257" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32822084" sideWeight="0.4969743" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32869378" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32869378" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.351227" sideWeight="0.4969743" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15770172" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16381419" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -732,13 +732,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter22_lists_stacks_queues/PerformOperationsOnPriorityQueues22_10.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="30" lean-forward="false" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter22_lists_stacks_queues/Test.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -923,7 +916,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1513">
           <caret line="133" column="22" lean-forward="false" selection-start-line="133" selection-start-column="22" selection-end-line="133" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -931,9 +923,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -951,10 +940,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="33371">
           <caret line="2045" column="19" lean-forward="false" selection-start-line="2045" selection-start-column="19" selection-end-line="2045" selection-end-column="19" />
-          <folding>
-            <element signature="e#81751#81752#0" expanded="false" />
-            <element signature="e#81800#81801#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -978,7 +963,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="199">
           <caret line="1432" column="27" lean-forward="false" selection-start-line="1432" selection-start-column="27" selection-end-line="1432" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -986,7 +970,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="302">
           <caret line="60" column="22" lean-forward="false" selection-start-line="60" selection-start-column="22" selection-end-line="60" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -994,7 +977,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="302">
           <caret line="72" column="56" lean-forward="false" selection-start-line="72" selection-start-column="56" selection-end-line="72" selection-end-column="56" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1002,7 +984,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="41" column="17" lean-forward="false" selection-start-line="41" selection-start-column="17" selection-end-line="41" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1010,7 +991,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="302">
           <caret line="143" column="17" lean-forward="false" selection-start-line="143" selection-start-column="17" selection-end-line="143" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1018,10 +998,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="302">
           <caret line="108" column="22" lean-forward="false" selection-start-line="108" selection-start-column="22" selection-end-line="108" selection-end-column="22" />
-          <folding>
-            <element signature="e#6326#6327#0" expanded="false" />
-            <element signature="e#6394#6395#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1029,7 +1005,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1037,7 +1012,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-9045">
           <caret line="111" column="17" lean-forward="false" selection-start-line="111" selection-start-column="17" selection-end-line="111" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1045,7 +1019,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="154" column="10" lean-forward="false" selection-start-line="154" selection-start-column="10" selection-end-line="154" selection-end-column="10" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1053,7 +1026,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="302">
           <caret line="67" column="51" lean-forward="false" selection-start-line="67" selection-start-column="51" selection-end-line="67" selection-end-column="51" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1061,7 +1033,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="302">
           <caret line="137" column="39" lean-forward="false" selection-start-line="137" selection-start-column="39" selection-end-line="137" selection-end-column="39" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1075,7 +1046,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter22_lists_stacks_queues/StoreNumbers22_2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-255">
+        <state relative-caret-position="68">
           <caret line="7" column="22" lean-forward="false" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
           <folding />
         </state>
@@ -1083,7 +1054,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter22_lists_stacks_queues/SortPoints22_4.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
+        <state relative-caret-position="561">
           <caret line="34" column="17" lean-forward="false" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
           <folding />
         </state>
@@ -1108,7 +1079,7 @@
     <entry file="file://$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter24_developingEfficientAlgorithm/closest_pair_24_7/Point.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
-          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding>
             <element signature="e#304#305#0" expanded="true" />
             <element signature="e#328#329#0" expanded="true" />
@@ -1130,11 +1101,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter24_developingEfficientAlgorithm/closest_pair_24_7/ClosestPairOfPoints.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="36" column="73" lean-forward="false" selection-start-line="36" selection-start-column="73" selection-end-line="36" selection-end-column="73" />
+        <state relative-caret-position="628">
+          <caret line="40" column="41" lean-forward="false" selection-start-line="40" selection-start-column="41" selection-end-line="40" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter24_developingEfficientAlgorithm/PrimeNumbers_27_8.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="40" lean-forward="true" selection-start-line="24" selection-start-column="40" selection-end-line="24" selection-end-column="40" />
+          <folding />
         </state>
       </provider>
     </entry>
