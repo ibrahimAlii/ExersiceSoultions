@@ -2,8 +2,8 @@ package IntroductionToJavaProgramming.chapter24_developingEfficientAlgorithm;
 
 import java.io.RandomAccessFile;
 
-public class PrimeNumbers_27_8 {
-    final static int ARRAY_SIZE = 100000;
+public class PrimeNumbers_24_8 {
+    private final static int ARRAY_SIZE = 100000;
 
     public static void main(String[] args) throws Exception {
         // A list to hold prime numbers
