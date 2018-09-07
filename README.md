@@ -1,4 +1,7 @@
 # ExersiceSoultions
-Exercise and contest solutions
 
-Introduction to java programming book exersice solutions.
+Introduction to java programming book exercise solutions.
+
+**TO DO**:
+
+1- Complete Chapter 24 Exercise.
