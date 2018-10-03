@@ -10,7 +10,7 @@ public class InitializeSegments {
 
     // Sort the original file into sorted segments
     // The method return the number of segments
-    private static int initializeSegments(int segmentSize, String originalFile, String temporaryFile) throws Exception {
+    public static int initializeSegments(int segmentSize, String originalFile, String temporaryFile) throws Exception {
         int[] list = new int[segmentSize];
 
         // Original file
