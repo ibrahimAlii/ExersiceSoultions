@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2a48d9be-4006-42d4-8acc-ecae1c498a0c" name="Default" comment="Exercise 26.6 [CustomLinkedList]">
+      <change afterPath="$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter26_lists_stacks_queues/GenericQueue.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter26_lists_stacks_queues/MyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter26_lists_stacks_queues/MyLinkedList.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,23 +23,23 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="4" />
+          <entry key="java" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="4" />
+          <entry key="JAVA" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="4593" />
+          <entry key="java" value="4705" />
           <entry key="txt" value="24" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="4593" />
+          <entry key="JAVA" value="4705" />
           <entry key="PLAIN_TEXT" value="24" />
         </counts>
       </usages-collector>
@@ -51,15 +51,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter25_sorting/CreateLargeFile.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="22" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter25_sorting/external_sort/InitializeSegments.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -115,11 +106,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter26_lists_stacks_queues/MyLinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="372">
-              <caret line="187" column="39" selection-start-line="187" selection-start-column="39" selection-end-line="187" selection-end-column="39" />
+            <state relative-caret-position="2057">
+              <caret line="121" column="13" lean-forward="true" selection-start-line="121" selection-start-column="13" selection-end-line="121" selection-end-column="13" />
               <folding>
                 <element signature="e#368#369#0" expanded="true" />
                 <element signature="e#398#399#0" expanded="true" />
@@ -132,15 +123,41 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter26_lists_stacks_queues/GenericQueue.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" column="27" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
+              <folding>
+                <element signature="e#214#215#0" expanded="true" />
+                <element signature="e#245#246#0" expanded="true" />
+                <element signature="e#274#275#0" expanded="true" />
+                <element signature="e#300#301#0" expanded="true" />
+                <element signature="e#346#347#0" expanded="true" />
+                <element signature="e#379#380#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter26_lists_stacks_queues/Node.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="13" lean-forward="true" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            <state relative-caret-position="51">
+              <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
               <folding>
                 <element signature="e#148#149#0" expanded="true" />
                 <element signature="e#175#176#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="871">
+              <caret line="71" selection-start-line="71" selection-end-line="71" />
             </state>
           </provider>
         </entry>
@@ -175,7 +192,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter21_generics/TestIntegerMatrix.java" />
         <option value="$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter22_lists_stacks_queues/DirectorySize22_18.java" />
         <option value="$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter22_lists_stacks_queues/DirectorySize22_21.java" />
         <option value="$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter22_lists_stacks_queues/DisplayWords22_21.java" />
@@ -226,6 +242,7 @@
         <option value="$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter26_lists_stacks_queues/MyLinkedLis.java" />
         <option value="$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter26_lists_stacks_queues/Node.java" />
         <option value="$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter26_lists_stacks_queues/MyLinkedList.java" />
+        <option value="$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter26_lists_stacks_queues/GenericQueue.java" />
       </list>
     </option>
   </component>
@@ -305,7 +322,7 @@
     <property name="SearchEverywhereHistoryKey" value="Heap&#9;PSI&#9;JAVA://sun.jvm.hotspot.memory.HeapBlock&#10;Hashmap&#9;PSI&#9;JAVA://java.util.HashMap&#10;Racin&#9;FILE&#9;file://C:/Users/sun_m/Desktop/Introduction-To-Java-Programming/src/IntroductionToJavaProgramming/chapter18_appletsAndMultimedia/RacingCars.java&#10;Racing&#9;PSI&#9;JAVA://RacingCar&#10;Bubble&#9;FILE&#9;file://C:/Users/sun_m/Desktop/Introduction-To-Java-Programming/src/IntroductionToJavaProgramming/chapter6_arrays/BubbleSort.java&#10;Connec&#9;FILE&#9;file://C:/Users/sun_m/Desktop/Introduction-To-Java-Programming/src/IntroductionToJavaProgramming/chapter7_twoDeimensionalArray/Game_ConnectFour_7_20.java&#10;Prim&#9;FILE&#9;file://C:/Users/sun_m/Desktop/Introduction-To-Java-Programming/src/IntroductionToJavaProgramming/chapter6_arrays/PrimeNumbers.java&#10;Prime&#9;PSI&#9;JAVA://com.sun.org.apache.xerces.internal.util.PrimeNumberSequenceGenerator&#10;PaneColl&#9;FILE&#9;file://C:/Users/sun_m/Desktop/Introduction-To-Java-Programming/src/IntroductionToJavaProgramming/chapter13_graphics/PaneCollection.java&#10;MyPoin&#9;FILE&#9;file://C:/Users/sun_m/Desktop/Introduction-To-Java-Programming/src/IntroductionToJavaProgramming/chapter10_ThinkingInObjects/triangle2D/MyPoint.java&#10;TBeanMachine&#9;FILE&#9;file://C:/Users/sun_m/Desktop/Introduction-To-Java-Programming/src/IntroductionToJavaProgramming/chapter13_graphics/beanmachine/TBeanMachinePane.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538749764368" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538758013725" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
@@ -554,7 +571,7 @@
       <workItem from="1538350693233" duration="2941000" />
       <workItem from="1538396737497" duration="7952000" />
       <workItem from="1538584401121" duration="4531000" />
-      <workItem from="1538614575761" duration="6272000" />
+      <workItem from="1538614575761" duration="7179000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1517893839399</created>
@@ -710,11 +727,25 @@
       <option name="project" value="LOCAL" />
       <updated>1538623041515</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Exercise 26.6 [CustomLinkedList]">
+      <created>1538749769337</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1538749769337</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Exercise 26.6 [CustomLinkedList]">
+      <created>1538749777008</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1538749777008</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="176043000" />
+    <option name="totallyTimeSpent" value="176950000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1696" height="1066" extended-state="6" />
@@ -792,20 +823,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter13_graphics/beanmachine/TBeanMachinePane.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3179">
-          <caret line="203" column="29" selection-start-line="203" selection-start-column="29" selection-end-line="203" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter13_graphics/StillClock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter18_appletsAndMultimedia/FullClock.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1015,13 +1032,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1054">
-          <caret line="71" selection-start-line="71" selection-end-line="71" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter24_developingEfficientAlgorithm/closest_pair_24_7/ClosestPairOfPoints.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="646">
@@ -1148,10 +1158,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-9.0.1/lib/src.zip!/java.base/java/util/Iterator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="65" column="4" selection-start-line="65" selection-start-column="4" selection-end-line="65" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter26_lists_stacks_queues/Node.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" lean-forward="true" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        <state relative-caret-position="51">
+          <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
           <folding>
             <element signature="e#148#149#0" expanded="true" />
             <element signature="e#175#176#0" expanded="true" />
@@ -1159,10 +1176,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="871">
+          <caret line="71" selection-start-line="71" selection-end-line="71" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter26_lists_stacks_queues/MyLinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="372">
-          <caret line="187" column="39" selection-start-line="187" selection-start-column="39" selection-end-line="187" selection-end-column="39" />
+        <state relative-caret-position="2057">
+          <caret line="121" column="13" lean-forward="true" selection-start-line="121" selection-start-column="13" selection-end-line="121" selection-end-column="13" />
           <folding>
             <element signature="e#368#369#0" expanded="true" />
             <element signature="e#398#399#0" expanded="true" />
@@ -1170,6 +1194,21 @@
             <element signature="e#4219#4220#0" expanded="true" />
             <element signature="e#4839#4840#0" expanded="true" />
             <element signature="e#4875#4876#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter26_lists_stacks_queues/GenericQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="27" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
+          <folding>
+            <element signature="e#214#215#0" expanded="true" />
+            <element signature="e#245#246#0" expanded="true" />
+            <element signature="e#274#275#0" expanded="true" />
+            <element signature="e#300#301#0" expanded="true" />
+            <element signature="e#346#347#0" expanded="true" />
+            <element signature="e#379#380#0" expanded="true" />
           </folding>
         </state>
       </provider>
