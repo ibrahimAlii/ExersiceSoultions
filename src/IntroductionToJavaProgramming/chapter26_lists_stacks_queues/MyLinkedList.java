@@ -185,7 +185,7 @@ public class MyLinkedList<E> extends MyAbstractList<E> {
 
     @Override
     public Iterator<E> iterator() {
-        return null;
+        return new LinkedListIterator();
     }
     
     private class LinkedListIterator implements Iterator<E>{
@@ -205,7 +205,7 @@ public class MyLinkedList<E> extends MyAbstractList<E> {
 
         @Override
         public void remove() {
-            // TODO: 04/10/2018  
+            // TODO: 04/10/2018
         }
     }
 }
