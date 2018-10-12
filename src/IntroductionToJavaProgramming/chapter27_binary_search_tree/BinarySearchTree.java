@@ -1,6 +1,5 @@
 package IntroductionToJavaProgramming.chapter27_binary_search_tree;
 
-import IntroductionToJavaProgramming.chapter6_arrays.BinarySearch;
 
 import java.util.ArrayList;
 import java.util.Iterator;
