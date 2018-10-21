@@ -164,6 +164,7 @@ public class HashMap<K, V> implements Map<K, V> {
             LinkedList<Entry<K, V>> bucket = table[bucketIndex];
             for (Entry<K, V> entry : bucket)
                 if (entry.getKey().equals(key)) {
+                    bucket.remove(entry);
                     size--;
                     break;
                 }

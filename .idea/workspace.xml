@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2a48d9be-4006-42d4-8acc-ecae1c498a0c" name="Default" comment="Exercise 27.12 [HuffmanCode]">
-      <change afterPath="$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter28_hashing/Entry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter28_hashing/HashMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter28_hashing/Map.java" afterDir="false" />
+    <list default="true" id="2a48d9be-4006-42d4-8acc-ecae1c498a0c" name="Default" comment="Exercise 28 [HashMap]">
+      <change afterPath="$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter28_hashing/TestMyHashMap.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,24 +29,24 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="27" />
+          <entry key="java" value="28" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="27" />
+          <entry key="JAVA" value="28" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="16478" />
-          <entry key="txt" value="92" />
+          <entry key="java" value="16842" />
+          <entry key="txt" value="100" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="16478" />
-          <entry key="PLAIN_TEXT" value="92" />
+          <entry key="JAVA" value="16842" />
+          <entry key="PLAIN_TEXT" value="100" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -93,11 +91,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter28_hashing/HashMap.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="780">
-              <caret line="242" column="34" selection-start-line="242" selection-start-column="34" selection-end-line="242" selection-end-column="34" />
+            <state relative-caret-position="153">
+              <caret line="9" column="52" lean-forward="true" selection-start-line="9" selection-start-column="52" selection-end-line="9" selection-end-column="52" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#869#870#0" expanded="true" />
@@ -113,6 +111,15 @@
                 <element signature="e#5129#5130#0" expanded="true" />
                 <element signature="e#5195#5196#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter28_hashing/TestMyHashMap.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="26" column="51" selection-start-line="26" selection-start-column="51" selection-end-line="26" selection-end-column="51" />
             </state>
           </provider>
         </entry>
@@ -169,7 +176,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter24_developingEfficientAlgorithm/ImprovedGCD.java" />
         <option value="$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter24_developingEfficientAlgorithm/GCDEuclid.java" />
         <option value="$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter16_event_driven_programming/HitBalloonsGame.java" />
         <option value="$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter16_event_driven_programming/SelfAvoidingRandomWalk.java" />
@@ -220,6 +226,7 @@
         <option value="$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter28_hashing/Map.java" />
         <option value="$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter28_hashing/Entry.java" />
         <option value="$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter28_hashing/HashMap.java" />
+        <option value="$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter28_hashing/TestMyHashMap.java" />
       </list>
     </option>
   </component>
@@ -299,7 +306,7 @@
     <property name="SearchEverywhereHistoryKey" value="Heap&#9;PSI&#9;JAVA://sun.jvm.hotspot.memory.HeapBlock&#10;Hashmap&#9;PSI&#9;JAVA://java.util.HashMap&#10;Racin&#9;FILE&#9;file://C:/Users/sun_m/Desktop/Introduction-To-Java-Programming/src/IntroductionToJavaProgramming/chapter18_appletsAndMultimedia/RacingCars.java&#10;Racing&#9;PSI&#9;JAVA://RacingCar&#10;Bubble&#9;FILE&#9;file://C:/Users/sun_m/Desktop/Introduction-To-Java-Programming/src/IntroductionToJavaProgramming/chapter6_arrays/BubbleSort.java&#10;Connec&#9;FILE&#9;file://C:/Users/sun_m/Desktop/Introduction-To-Java-Programming/src/IntroductionToJavaProgramming/chapter7_twoDeimensionalArray/Game_ConnectFour_7_20.java&#10;Prim&#9;FILE&#9;file://C:/Users/sun_m/Desktop/Introduction-To-Java-Programming/src/IntroductionToJavaProgramming/chapter6_arrays/PrimeNumbers.java&#10;Prime&#9;PSI&#9;JAVA://com.sun.org.apache.xerces.internal.util.PrimeNumberSequenceGenerator&#10;PaneColl&#9;FILE&#9;file://C:/Users/sun_m/Desktop/Introduction-To-Java-Programming/src/IntroductionToJavaProgramming/chapter13_graphics/PaneCollection.java&#10;MyPoin&#9;FILE&#9;file://C:/Users/sun_m/Desktop/Introduction-To-Java-Programming/src/IntroductionToJavaProgramming/chapter10_ThinkingInObjects/triangle2D/MyPoint.java&#10;TBeanMachine&#9;FILE&#9;file://C:/Users/sun_m/Desktop/Introduction-To-Java-Programming/src/IntroductionToJavaProgramming/chapter13_graphics/beanmachine/TBeanMachinePane.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540110887719" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540111579063" />
     <property name="last_opened_file_path" value="$USER_HOME$/Desktop/CarRental" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
@@ -331,7 +338,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TestHuffmanCode">
+  <component name="RunManager" selected="Application.TestMyHashMap">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -340,20 +347,6 @@
     </configuration>
     <configuration name="DisplayBinarySearchTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="IntroductionToJavaProgramming.chapter27_binary_search_tree.DisplayBinarySearchTree" />
-      <module name="Introduction-To-Java-Programming" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="IntroductionToJavaProgramming.chapter27_binary_search_tree.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestBST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="IntroductionToJavaProgramming.chapter27_binary_search_tree.TestBST" />
       <module name="Introduction-To-Java-Programming" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -387,6 +380,20 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="IntroductionToJavaProgramming.chapter27_binary_search_tree.huffman.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestMyHashMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="IntroductionToJavaProgramming.chapter28_hashing.TestMyHashMap" />
+      <module name="Introduction-To-Java-Programming" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="IntroductionToJavaProgramming.chapter28_hashing.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -438,19 +445,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.TestBST" />
       <item itemvalue="Application.Tester" />
       <item itemvalue="Application.TestBSTDelete" />
       <item itemvalue="Application.DisplayBinarySearchTree" />
       <item itemvalue="Application.TestHuffmanCode" />
+      <item itemvalue="Application.TestMyHashMap" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestMyHashMap" />
         <item itemvalue="Application.TestHuffmanCode" />
         <item itemvalue="Application.DisplayBinarySearchTree" />
         <item itemvalue="Application.TestBSTDelete" />
         <item itemvalue="Application.Tester" />
-        <item itemvalue="Application.TestBST" />
       </list>
     </recent_temporary>
   </component>
@@ -557,7 +564,7 @@
       <workItem from="1539749093845" duration="609000" />
       <workItem from="1539839330774" duration="1884000" />
       <workItem from="1539965042734" duration="4285000" />
-      <workItem from="1540103087383" duration="5642000" />
+      <workItem from="1540103087383" duration="6106000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1517893839399</created>
@@ -762,17 +769,24 @@
       <option name="project" value="LOCAL" />
       <updated>1540051326066</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="Exercise 28 [HashMap]">
+      <created>1540111031864</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1540111031864</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="212929000" />
+    <option name="totallyTimeSpent" value="213393000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1696" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49920255" visible="true" weight="0.1393643" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49920255" visible="true" weight="0.1393643" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.50079745" side_tool="true" weight="0.13386308" />
       <window_info id="Image Layers" order="3" />
@@ -781,7 +795,7 @@
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3297546" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3279743" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3279743" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3993576" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -832,7 +846,8 @@
     <MESSAGE value="Exercise 27.8 [BinarySearchTree]" />
     <MESSAGE value="Exercise 27.8 [DisplayBinarySearchTree]" />
     <MESSAGE value="Exercise 27.12 [HuffmanCode]" />
-    <option name="LAST_COMMIT_MESSAGE" value="Exercise 27.12 [HuffmanCode]" />
+    <MESSAGE value="Exercise 28 [HashMap]" />
+    <option name="LAST_COMMIT_MESSAGE" value="Exercise 28 [HashMap]" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -849,13 +864,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk-9.0.1/lib/src.zip!/java.base/java/util/ArrayList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="108" column="22" selection-start-line="108" selection-start-column="22" selection-end-line="108" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter15_abstractClassesandInterfaces/SortArrayList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -1227,8 +1235,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter28_hashing/HashMap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="780">
-          <caret line="242" column="34" selection-start-line="242" selection-start-column="34" selection-end-line="242" selection-end-column="34" />
+        <state relative-caret-position="153">
+          <caret line="9" column="52" lean-forward="true" selection-start-line="9" selection-start-column="52" selection-end-line="9" selection-end-column="52" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#869#870#0" expanded="true" />
@@ -1244,6 +1252,13 @@
             <element signature="e#5129#5130#0" expanded="true" />
             <element signature="e#5195#5196#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter28_hashing/TestMyHashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="51" selection-start-line="26" selection-start-column="51" selection-end-line="26" selection-end-column="51" />
         </state>
       </provider>
     </entry>
