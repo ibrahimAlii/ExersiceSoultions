@@ -69,7 +69,7 @@ public class BinarySearchTree<E extends Comparable<E>> extends AbstractTree<E> {
         return true; // Element inserted
     }
 
-    private TreeNode<E> createNewNode(E e) {
+    protected TreeNode<E> createNewNode(E e) {
         return new TreeNode<>(e);
     }
 
