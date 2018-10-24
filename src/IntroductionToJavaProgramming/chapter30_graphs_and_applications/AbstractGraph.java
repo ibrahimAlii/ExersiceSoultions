@@ -2,6 +2,7 @@ package IntroductionToJavaProgramming.chapter30_graphs_and_applications;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.LinkedList;
 import java.util.List;
 
 public abstract class AbstractGraph<V> implements Graph<V> {
@@ -18,15 +19,22 @@ public abstract class AbstractGraph<V> implements Graph<V> {
         createAdjacencyLists(edges, vertices.length);
     }
 
-    protected AbstractGraph(List<Edge> edges, List<V> vertices){
+    protected AbstractGraph(List<Edge> edges, List<V> vertices) {
         this.vertices.addAll(vertices);
 
         createAdjacencyLists(edges, vertices.size());
     }
 
-    protected AbstractGraph(List<Edge> edges, int numberOfVertices){
+    protected AbstractGraph(List<Edge> edges, int numberOfVertices) {
         for (int i = 0; i < numberOfVertices; i++)
-            vertices.add((V)(Integer.valueOf(i)));
+            vertices.add((V) (Integer.valueOf(i)));
+
+        createAdjacencyLists(edges, numberOfVertices);
+    }
+
+    protected AbstractGraph(int[][] edges, int numberOfVertices) {
+        for (int i = 0; i < numberOfVertices; i++)
+            vertices.add((V) (Integer.valueOf(i)));
 
         createAdjacencyLists(edges, numberOfVertices);
     }
@@ -126,15 +134,69 @@ public abstract class AbstractGraph<V> implements Graph<V> {
         }
     }
 
+    /**
+     * Obtain a DFS (Depth-First-Search) tree starting from vertex v
+     */
     @Override
     public Tree dfs(int v) {
-        return null;
+        List<Integer> searchOrder = new ArrayList<>();
+        int[] parent = new int[vertices.size()];
+
+        for (int i = 0; i < parent.length; i++)
+            parent[i] = -1; // Initialize to -1
+
+        // Mark visited vertices
+        boolean[] isVisited = new boolean[vertices.size()];
+
+        // Recursively search
+        dfs(v, parent, searchOrder, isVisited);
+
+        // Return a search tree
+        return new Tree(v, parent, searchOrder);
+    }
+
+    /* Recursive method for DFS search */
+    private void dfs(int v, int[] parent, List<Integer> searchOrder, boolean[] isVisited) {
+        // Store the visited vertex
+        searchOrder.add(v);
+        isVisited[v] = true;
+
+        for (int i :
+                neighbors.get(v)) {
+            if (isVisited[i]) {
+                parent[i] = v; // The parent of vertex i is v
+                dfs(i, parent, searchOrder, isVisited); // Recursive search
+            }
+        }
     }
 
 
+    /* Starting BFS (Breadth-first-search) search from vertex v */
     @Override
     public Tree bfs(int v) {
-        return null;
+        List<Integer> searchOrder = new ArrayList<>();
+        int[] parent = new int[vertices.size()];
+        for (int i = 0; i < parent.length; i++)
+            parent[i] = -1; // Initialize parent[i] to -1
+
+        LinkedList<Integer> queue = new LinkedList<>(); // list used as a queue
+        boolean[] isVisited = new boolean[vertices.size()];
+        queue.offer(v); // Enqueue v
+        isVisited[v] = true; // Mark it visited
+
+        while (!queue.isEmpty()) {
+            int u = queue.poll(); // Dequeue to u
+            searchOrder.add(u);
+            for (int w : neighbors.get(u)) {
+                if (!isVisited[w]) {
+                    queue.offer(w); // Enqueue w
+                    parent[w] = u; // The parent of w is u
+                    isVisited[w] = true; // Mark it visited
+                }
+            }
+        }
+
+        return new Tree(v, parent, searchOrder);
     }
 
     /* Tree inner class inside $AbstractGraph  class */
@@ -159,6 +221,44 @@ public abstract class AbstractGraph<V> implements Graph<V> {
 
         public List<Integer> getSearchOrder() {
             return searchOrder;
+        }
+
+        public int getNumberOfVerticesFound() {
+            return searchOrder.size();
+        }
+
+        /* Return the path of vertices from a vertex to the root */
+        public List<V> getPath(int index) {
+            ArrayList<V> path = new ArrayList<>();
+
+            do {
+                path.add(vertices.get(index));
+                index = parent[index];
+            } while (index != -1);
+
+            return path;
+        }
+
+        /* Print a path from the root to vertex v */
+        public void printPath(int index) {
+            List<V> path = getPath(index);
+            System.out.print("A path from " + vertices.get(root) + " to "
+                    + vertices.get(index) + ": ");
+            for (int i = path.size() - 1; i >= 0; i--)
+                System.out.print(path.get(i) + " ");
+        }
+
+        /* Print the whole tree */
+        public void printTree() {
+            System.out.println("Root is: " + vertices.get(root));
+            System.out.print("Edges: ");
+            for (int i = 0; i < parent.length; i++) {
+                if (parent[i] != -1) {
+                    System.out.print("(" + vertices.get(parent[i]) + ", "
+                            + vertices.get(i) + ") ");
+                }
+            }
+            System.out.println();
         }
     }
 }
