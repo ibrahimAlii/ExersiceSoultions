@@ -26,9 +26,8 @@ public class DisplayEgyptMap extends JFrame {
             {1, 5}, {5, 4}, {5, 2}, {5, 3}, {5, 0},
     };
 
-    private Graph<City> graph = new UnweightedGraph<>(edges, vertices);
-
     public DisplayEgyptMap(){
+        Graph<City> graph = new UnweightedGraph<>(edges, vertices);
         add(new GraphView(graph));
     }
 
