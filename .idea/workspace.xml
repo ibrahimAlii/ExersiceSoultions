@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2a48d9be-4006-42d4-8acc-ecae1c498a0c" name="Default" comment="Exercise 30.7 [GraphTheory][DisplayEgyptMap]">
-      <change afterPath="$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter30_graphs_and_applications/connected_circles/ConnectedCircles.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter30_graphs_and_applications/connected_circles/DisplayConnectedCircles.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter30_graphs_and_applications/nine_tail/NineTail.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter30_graphs_and_applications/nine_tail/NineTailModel.java" afterDir="false" />
+    <list default="true" id="2a48d9be-4006-42d4-8acc-ecae1c498a0c" name="Default" comment="Exercise 30.14 [GraphTheory][NileTail]">
+      <change afterPath="$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter31_weighted_graphs_and_applications/WeightedEdge.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter31_weighted_graphs_and_applications/WeightedGraph.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter30_graphs_and_applications/graph_visualization/DisplayEgyptMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter30_graphs_and_applications/graph_visualization/DisplayEgyptMap.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -33,24 +30,24 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="47" />
+          <entry key="java" value="49" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="47" />
+          <entry key="JAVA" value="49" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="30382" />
-          <entry key="txt" value="158" />
+          <entry key="java" value="31097" />
+          <entry key="txt" value="169" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="30382" />
-          <entry key="PLAIN_TEXT" value="158" />
+          <entry key="JAVA" value="31097" />
+          <entry key="PLAIN_TEXT" value="169" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -64,18 +61,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter30_graphs_and_applications/Graph.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter30_graphs_and_applications/UnweightedGraph.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -119,14 +104,35 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter30_graphs_and_applications/nine_tail/NineTail.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="10" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
+            <state relative-caret-position="357">
+              <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter31_weighted_graphs_and_applications/WeightedGraph.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="457">
+              <caret line="50" column="4" selection-start-line="50" selection-start-column="4" selection-end-line="50" selection-end-column="4" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter31_weighted_graphs_and_applications/WeightedEdge.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" column="23" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -157,20 +163,6 @@
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#2261#2262#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter30_graphs_and_applications/graph_visualization/GraphView.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="680">
-              <caret line="40" column="70" selection-start-line="40" selection-start-column="70" selection-end-line="40" selection-end-column="70" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#384#385#0" expanded="true" />
-                <element signature="e#418#419#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -211,8 +203,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter25_sorting/ImprovedBubbleSort.java" />
         <option value="$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter25_sorting/ImprovedBubbleSort25_2.java" />
         <option value="$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter25_sorting/MergeSort25_5.java" />
         <option value="$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter25_sorting/HeapSort.java" />
@@ -262,6 +252,8 @@
         <option value="$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter30_graphs_and_applications/connected_circles/ConnectedCircles.java" />
         <option value="$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter30_graphs_and_applications/nine_tail/NineTailModel.java" />
         <option value="$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter30_graphs_and_applications/nine_tail/NineTail.java" />
+        <option value="$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter31_weighted_graphs_and_applications/WeightedEdge.java" />
+        <option value="$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter31_weighted_graphs_and_applications/WeightedGraph.java" />
       </list>
     </option>
   </component>
@@ -307,15 +299,7 @@
               <item name="Introduction-To-Java-Programming" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="IntroductionToJavaProgramming" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter30_graphs_and_applications" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Introduction-To-Java-Programming" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Introduction-To-Java-Programming" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="IntroductionToJavaProgramming" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter30_graphs_and_applications" type="462c0819:PsiDirectoryNode" />
-              <item name="nine_tail" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter31_weighted_graphs_and_applications" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -349,7 +333,7 @@
     <property name="SearchEverywhereHistoryKey" value="Heap&#9;PSI&#9;JAVA://sun.jvm.hotspot.memory.HeapBlock&#10;Hashmap&#9;PSI&#9;JAVA://java.util.HashMap&#10;Racin&#9;FILE&#9;file://C:/Users/sun_m/Desktop/Introduction-To-Java-Programming/src/IntroductionToJavaProgramming/chapter18_appletsAndMultimedia/RacingCars.java&#10;Racing&#9;PSI&#9;JAVA://RacingCar&#10;Bubble&#9;FILE&#9;file://C:/Users/sun_m/Desktop/Introduction-To-Java-Programming/src/IntroductionToJavaProgramming/chapter6_arrays/BubbleSort.java&#10;Connec&#9;FILE&#9;file://C:/Users/sun_m/Desktop/Introduction-To-Java-Programming/src/IntroductionToJavaProgramming/chapter7_twoDeimensionalArray/Game_ConnectFour_7_20.java&#10;Prim&#9;FILE&#9;file://C:/Users/sun_m/Desktop/Introduction-To-Java-Programming/src/IntroductionToJavaProgramming/chapter6_arrays/PrimeNumbers.java&#10;Prime&#9;PSI&#9;JAVA://com.sun.org.apache.xerces.internal.util.PrimeNumberSequenceGenerator&#10;PaneColl&#9;FILE&#9;file://C:/Users/sun_m/Desktop/Introduction-To-Java-Programming/src/IntroductionToJavaProgramming/chapter13_graphics/PaneCollection.java&#10;MyPoin&#9;FILE&#9;file://C:/Users/sun_m/Desktop/Introduction-To-Java-Programming/src/IntroductionToJavaProgramming/chapter10_ThinkingInObjects/triangle2D/MyPoint.java&#10;TBeanMachine&#9;FILE&#9;file://C:/Users/sun_m/Desktop/Introduction-To-Java-Programming/src/IntroductionToJavaProgramming/chapter13_graphics/beanmachine/TBeanMachinePane.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540496312574" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540524450610" />
     <property name="last_opened_file_path" value="$USER_HOME$/Desktop/CarRental" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
@@ -614,7 +598,7 @@
       <workItem from="1540217589571" duration="11375000" />
       <workItem from="1540298668580" duration="1272000" />
       <workItem from="1540352249562" duration="7049000" />
-      <workItem from="1540390616615" duration="9941000" />
+      <workItem from="1540390616615" duration="12646000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1517893839399</created>
@@ -861,16 +845,24 @@
       <option name="project" value="LOCAL" />
       <updated>1540394088991</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="Exercise 30.14 [GraphTheory][NileTail]">
+      <created>1540497160371</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1540497160371</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="244487000" />
+    <option name="totallyTimeSpent" value="247192000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1696" height="1066" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49920255" visible="true" weight="0.14669926" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49920255" visible="true" weight="0.14669926" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.50079745" side_tool="true" weight="0.13386308" />
       <window_info id="Image Layers" order="3" />
@@ -879,7 +871,7 @@
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3297546" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3279743" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3279743" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3993576" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -936,7 +928,8 @@
     <MESSAGE value="Exercise 29.3 [AVLTree]" />
     <MESSAGE value="Exercise 30.2 [GraphTheory]" />
     <MESSAGE value="Exercise 30.7 [GraphTheory][DisplayEgyptMap]" />
-    <option name="LAST_COMMIT_MESSAGE" value="Exercise 30.7 [GraphTheory][DisplayEgyptMap]" />
+    <MESSAGE value="Exercise 30.14 [GraphTheory][NileTail]" />
+    <option name="LAST_COMMIT_MESSAGE" value="Exercise 30.14 [GraphTheory][NileTail]" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -953,23 +946,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="85">
-            <caret line="5" selection-start-line="5" selection-end-line="5" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-9.0.1/lib/src.zip!/jdk.hotspot.agent/sun/jvm/hotspot/memory/HeapBlock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter25_sorting/ImprovedBubbleSort25_2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -1347,8 +1323,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter30_graphs_and_applications/nine_tail/NineTail.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="10" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
+        <state relative-caret-position="357">
+          <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter31_weighted_graphs_and_applications/WeightedEdge.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="23" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter31_weighted_graphs_and_applications/WeightedGraph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="457">
+          <caret line="50" column="4" selection-start-line="50" selection-start-column="4" selection-end-line="50" selection-end-column="4" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
