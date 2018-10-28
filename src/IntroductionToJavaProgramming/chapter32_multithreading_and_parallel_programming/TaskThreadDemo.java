@@ -19,7 +19,7 @@ public class TaskThreadDemo {
 
 }
 
- class PrintChar implements Runnable {
+class PrintChar implements Runnable {
     public char aChar;
     public int times;
 
@@ -36,7 +36,7 @@ public class TaskThreadDemo {
     }
 }
 
- class PrintNum implements Runnable {
+class PrintNum implements Runnable {
     public int lastNum;
 
     public PrintNum(int n) {
@@ -45,8 +45,19 @@ public class TaskThreadDemo {
 
     @Override
     public void run() {
-        for (int i = 0; i <= lastNum; i++) {
-            System.out.print(" " + i);
+        Thread thread = new Thread(new PrintChar('c', 40));
+        thread.start();
+        try {
+            for (int i = 0; i <= lastNum; i++) {
+                System.out.print(" " + i);
+                if (i == 50) {
+
+                    thread.join();
+                }
+            }
+
+        } catch (InterruptedException e) {
+            e.printStackTrace();
         }
     }
 }
