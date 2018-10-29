@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2a48d9be-4006-42d4-8acc-ecae1c498a0c" name="Default" comment="Exercise 32.1 [Threads]">
-      <change afterPath="$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter32_multithreading_and_parallel_programming/ClockWithAudio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter32_multithreading_and_parallel_programming/ExecutorDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter32_multithreading_and_parallel_programming/FlashingText.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter32_multithreading_and_parallel_programming/before_and_after/AccountWithSyncUsingLock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter32_multithreading_and_parallel_programming/before_and_after/AccountWithoutSync.java" afterDir="false" />
+    <list default="true" id="2a48d9be-4006-42d4-8acc-ecae1c498a0c" name="Default" comment="Exercise 32.8 [Executors &amp; DeadLock]">
+      <change afterPath="$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter32_multithreading_and_parallel_programming/ParallelMergeSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter32_multithreading_and_parallel_programming/TreadCooperation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter32_multithreading_and_parallel_programming/before_and_after/ConsumerProducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter32_multithreading_and_parallel_programming/before_and_after/ConsumerProducerUsingBlockingQueue.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter32_multithreading_and_parallel_programming/TaskThreadDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter32_multithreading_and_parallel_programming/TaskThreadDemo.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,24 +32,24 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="59" />
+          <entry key="java" value="63" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="59" />
+          <entry key="JAVA" value="63" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="36642" />
-          <entry key="txt" value="193" />
+          <entry key="java" value="38258" />
+          <entry key="txt" value="225" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="36642" />
-          <entry key="PLAIN_TEXT" value="193" />
+          <entry key="JAVA" value="38258" />
+          <entry key="PLAIN_TEXT" value="225" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -65,35 +63,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter31_weighted_graphs_and_applications/WeightedGraph.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="26" column="25" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#2168#2169#0" expanded="true" />
-                <element signature="e#2197#2198#0" expanded="true" />
-                <element signature="e#2706#2707#0" expanded="true" />
-                <element signature="e#2754#2755#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter32_multithreading_and_parallel_programming/TaskThreadDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="406">
-              <caret line="57" selection-start-line="57" selection-end-line="57" />
-              <folding>
-                <element signature="e#1030#1031#0" expanded="true" />
-                <element signature="e#1065#1066#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter32_multithreading_and_parallel_programming/FlashingText.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -146,10 +115,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter32_multithreading_and_parallel_programming/before_and_after/AccountWithSyncUsingLock.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
+            <state relative-caret-position="17">
               <caret line="19" selection-start-line="19" selection-end-line="19" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -163,36 +132,57 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter32_multithreading_and_parallel_programming/TreadCooperation.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="491">
+              <caret line="82" column="26" selection-start-line="82" selection-start-column="26" selection-end-line="82" selection-end-column="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#595#596#0" expanded="true" />
+                <element signature="e#633#634#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter32_multithreading_and_parallel_programming/before_and_after/ConsumerProducer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="3" lean-forward="true" selection-start-line="14" selection-start-column="3" selection-end-line="20" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter32_multithreading_and_parallel_programming/before_and_after/ConsumerProducerUsingBlockingQueue.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="13" column="29" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter32_multithreading_and_parallel_programming/ParallelMergeSort.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter30_graphs_and_applications/graph_visualization/Displayable.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="51">
               <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter30_graphs_and_applications/AbstractGraph.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3179">
-              <caret line="202" column="17" selection-start-line="202" selection-start-column="17" selection-end-line="202" selection-end-column="17" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#2219#2220#0" expanded="true" />
-                <element signature="e#2261#2262#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter30_graphs_and_applications/graph_visualization/DisplayEgyptMap.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="29" column="35" selection-start-line="29" selection-start-column="35" selection-end-line="29" selection-end-column="35" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -215,10 +205,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter25_sorting/external_sort/SortLargeFile.java" />
-        <option value="$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter26_lists_stacks_queues/MyList.java" />
-        <option value="$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter26_lists_stacks_queues/MyAbstractList.java" />
-        <option value="$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter26_lists_stacks_queues/MyArrayList.java" />
         <option value="$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter26_lists_stacks_queues/MyLinkedLis.java" />
         <option value="$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter26_lists_stacks_queues/Node.java" />
         <option value="$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter26_lists_stacks_queues/MyLinkedList.java" />
@@ -266,6 +252,10 @@
         <option value="$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter32_multithreading_and_parallel_programming/ExecutorDemo.java" />
         <option value="$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter32_multithreading_and_parallel_programming/before_and_after/AccountWithSyncUsingLock.java" />
         <option value="$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter32_multithreading_and_parallel_programming/before_and_after/AccountWithoutSync.java" />
+        <option value="$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter32_multithreading_and_parallel_programming/TreadCooperation.java" />
+        <option value="$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter32_multithreading_and_parallel_programming/ConsumerProducer.java" />
+        <option value="$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter32_multithreading_and_parallel_programming/before_and_after/ConsumerProducer.java" />
+        <option value="$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter32_multithreading_and_parallel_programming/before_and_after/ConsumerProducerUsingBlockingQueue.java" />
       </list>
     </option>
   </component>
@@ -335,14 +325,6 @@
               <item name="IntroductionToJavaProgramming" type="462c0819:PsiDirectoryNode" />
               <item name="chapter32_multithreading_and_parallel_programming" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Introduction-To-Java-Programming" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Introduction-To-Java-Programming" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="IntroductionToJavaProgramming" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter32_multithreading_and_parallel_programming" type="462c0819:PsiDirectoryNode" />
-              <item name="before_and_after" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -353,7 +335,7 @@
     <property name="SearchEverywhereHistoryKey" value="Heap&#9;PSI&#9;JAVA://sun.jvm.hotspot.memory.HeapBlock&#10;Hashmap&#9;PSI&#9;JAVA://java.util.HashMap&#10;Racin&#9;FILE&#9;file://C:/Users/sun_m/Desktop/Introduction-To-Java-Programming/src/IntroductionToJavaProgramming/chapter18_appletsAndMultimedia/RacingCars.java&#10;Racing&#9;PSI&#9;JAVA://RacingCar&#10;Bubble&#9;FILE&#9;file://C:/Users/sun_m/Desktop/Introduction-To-Java-Programming/src/IntroductionToJavaProgramming/chapter6_arrays/BubbleSort.java&#10;Connec&#9;FILE&#9;file://C:/Users/sun_m/Desktop/Introduction-To-Java-Programming/src/IntroductionToJavaProgramming/chapter7_twoDeimensionalArray/Game_ConnectFour_7_20.java&#10;Prim&#9;FILE&#9;file://C:/Users/sun_m/Desktop/Introduction-To-Java-Programming/src/IntroductionToJavaProgramming/chapter6_arrays/PrimeNumbers.java&#10;Prime&#9;PSI&#9;JAVA://com.sun.org.apache.xerces.internal.util.PrimeNumberSequenceGenerator&#10;PaneColl&#9;FILE&#9;file://C:/Users/sun_m/Desktop/Introduction-To-Java-Programming/src/IntroductionToJavaProgramming/chapter13_graphics/PaneCollection.java&#10;MyPoin&#9;FILE&#9;file://C:/Users/sun_m/Desktop/Introduction-To-Java-Programming/src/IntroductionToJavaProgramming/chapter10_ThinkingInObjects/triangle2D/MyPoint.java&#10;TBeanMachine&#9;FILE&#9;file://C:/Users/sun_m/Desktop/Introduction-To-Java-Programming/src/IntroductionToJavaProgramming/chapter13_graphics/beanmachine/TBeanMachinePane.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540767916742" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540786029918" />
     <property name="last_opened_file_path" value="$USER_HOME$/Desktop/CarRental" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
@@ -389,7 +371,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.AccountWithoutSync">
+  <component name="RunManager" selected="Application.ConsumerProducerUsingBlockingQueue">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -424,13 +406,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ClockWithAudio" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="IntroductionToJavaProgramming.chapter32_multithreading_and_parallel_programming.ClockWithAudio" />
+    <configuration name="ConsumerProducer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="IntroductionToJavaProgramming.chapter32_multithreading_and_parallel_programming.before_and_after.ConsumerProducer" />
       <module name="Introduction-To-Java-Programming" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="IntroductionToJavaProgramming.chapter32_multithreading_and_parallel_programming.*" />
+          <option name="PATTERN" value="IntroductionToJavaProgramming.chapter32_multithreading_and_parallel_programming.before_and_after.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -438,13 +420,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExecutorDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="IntroductionToJavaProgramming.chapter32_multithreading_and_parallel_programming.ExecutorDemo" />
+    <configuration name="ConsumerProducerUsingBlockingQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="IntroductionToJavaProgramming.chapter32_multithreading_and_parallel_programming.before_and_after.ConsumerProducerUsingBlockingQueue" />
       <module name="Introduction-To-Java-Programming" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="IntroductionToJavaProgramming.chapter32_multithreading_and_parallel_programming.*" />
+          <option name="PATTERN" value="IntroductionToJavaProgramming.chapter32_multithreading_and_parallel_programming.before_and_after.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -452,13 +434,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FlashingText" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="IntroductionToJavaProgramming.chapter32_multithreading_and_parallel_programming.FlashingText" />
+    <configuration name="TreadCooperation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="IntroductionToJavaProgramming.chapter32_multithreading_and_parallel_programming.TreadCooperation" />
       <module name="Introduction-To-Java-Programming" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="IntroductionToJavaProgramming.chapter32_multithreading_and_parallel_programming.*" />
+          <option name="PATTERN" value="IntroductionToJavaProgramming.chapter32_multithreading_and_parallel_programming.before_and_after.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -496,19 +478,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.FlashingText" />
-      <item itemvalue="Application.ClockWithAudio" />
-      <item itemvalue="Application.ExecutorDemo" />
       <item itemvalue="Application.AccountWithoutSync" />
       <item itemvalue="Application.AccountWithSyncUsingLock" />
+      <item itemvalue="Application.TreadCooperation" />
+      <item itemvalue="Application.ConsumerProducer" />
+      <item itemvalue="Application.ConsumerProducerUsingBlockingQueue" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ConsumerProducerUsingBlockingQueue" />
+        <item itemvalue="Application.ConsumerProducer" />
+        <item itemvalue="Application.TreadCooperation" />
         <item itemvalue="Application.AccountWithoutSync" />
         <item itemvalue="Application.AccountWithSyncUsingLock" />
-        <item itemvalue="Application.ExecutorDemo" />
-        <item itemvalue="Application.ClockWithAudio" />
-        <item itemvalue="Application.FlashingText" />
       </list>
     </recent_temporary>
   </component>
@@ -621,7 +603,7 @@
       <workItem from="1540352249562" duration="7049000" />
       <workItem from="1540390616615" duration="13272000" />
       <workItem from="1540574159966" duration="4170000" />
-      <workItem from="1540646954393" duration="11769000" />
+      <workItem from="1540646954393" duration="16698000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1517893839399</created>
@@ -896,17 +878,24 @@
       <option name="project" value="LOCAL" />
       <updated>1540664998100</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="Exercise 32.8 [Executors &amp; DeadLock]">
+      <created>1540769256983</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1540769256983</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="263757000" />
+    <option name="totallyTimeSpent" value="268686000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1696" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49920255" visible="true" weight="0.15036675" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49920255" visible="true" weight="0.15036675" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.50079745" side_tool="true" weight="0.13386308" />
       <window_info id="Image Layers" order="3" />
@@ -915,7 +904,7 @@
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3297546" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49816626" visible="true" weight="0.3279743" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49816626" visible="true" weight="0.3279743" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3993576" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -948,7 +937,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/.." />
     </ignored-roots>
-    <MESSAGE value="Exercise 24.3" />
     <MESSAGE value="Exercise 24.6" />
     <MESSAGE value="Exercise 24.8" />
     <MESSAGE value="Exercise 24.9 // to complete" />
@@ -973,7 +961,8 @@
     <MESSAGE value="Exercise 30.14 [GraphTheory][NileTail]" />
     <MESSAGE value="Exercise 31.2 [GraphTheory][WeightedGraph]" />
     <MESSAGE value="Exercise 32.1 [Threads]" />
-    <option name="LAST_COMMIT_MESSAGE" value="Exercise 32.1 [Threads]" />
+    <MESSAGE value="Exercise 32.8 [Executors &amp; DeadLock]" />
+    <option name="LAST_COMMIT_MESSAGE" value="Exercise 32.8 [Executors &amp; DeadLock]" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -990,28 +979,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter26_lists_stacks_queues/MyArrayList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1666">
-          <caret line="100" column="58" selection-start-line="100" selection-start-column="58" selection-end-line="100" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter26_lists_stacks_queues/MyLinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2023">
-          <caret line="121" column="13" selection-start-line="121" selection-start-column="13" selection-end-line="121" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter26_lists_stacks_queues/GenericQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/IntroductionToJavaProgramming/Tester.java" />
     <entry file="file://$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter27_binary_search_tree/TreeControl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
@@ -1373,7 +1340,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter32_multithreading_and_parallel_programming/before_and_after/AccountWithSyncUsingLock.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
+        <state relative-caret-position="17">
           <caret line="19" selection-start-line="19" selection-end-line="19" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1382,6 +1349,45 @@
             <element signature="e#855#856#0" expanded="true" />
             <element signature="e#893#894#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter32_multithreading_and_parallel_programming/TreadCooperation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="491">
+          <caret line="82" column="26" selection-start-line="82" selection-start-column="26" selection-end-line="82" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#595#596#0" expanded="true" />
+            <element signature="e#633#634#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter32_multithreading_and_parallel_programming/before_and_after/ConsumerProducer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="3" lean-forward="true" selection-start-line="14" selection-start-column="3" selection-end-line="20" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter32_multithreading_and_parallel_programming/before_and_after/ConsumerProducerUsingBlockingQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="29" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/IntroductionToJavaProgramming/chapter32_multithreading_and_parallel_programming/ParallelMergeSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
         </state>
       </provider>
     </entry>
